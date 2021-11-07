@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+<title>TimeIndex-Papers-Blog</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="">
+
+<meta name="keywords" content="fault diagnosis，PHMprognostics and health management">
+<meta name="description" content="describe">
+
+
+<script src="/js/jquery.min.js"></script>
+
+
+	<meta name="generator" content="Hexo 5.4.0"></head>
+
+	<body>
+		
+    
+<link rel="stylesheet" href="/css/archive.css">
+
+        
+<link rel="stylesheet" href="/css/header.css">
+
+	<div class="header">
+		<div class="header-top">
+			<div class="h-left">
+				<a href="/">
+					<img src="D:\Document\PaperBlog\themes\Quiet\source\image\logo.png" alt="Quiet">
+				</a>
+			</div>
+			<div class="h-right">
+				<ul>
+					
+						
+								<li>
+									<a href="/">
+										Publication
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+							<li class="select">
+								<a href="/archives">
+									TimeIndex
+								</a>
+								<span class="dot"></span>
+							</li>
+							
+									
+						
+								<li>
+									<a href="/categories">
+										Categories
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="/tags">
+										Keywords
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="/links">
+										Links
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+						
+								<li>
+									<a href="/about">
+										Authors
+									</a>
+									<span class="dot"></span>
+								</li>
+								
+									
+				</ul>
+			</div>
+			<div class="h-right-close">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+					<path fill="none" d="M0 0h24v24H0z" />
+					<path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" fill="rgba(68,68,68,1)" />
+				</svg>
+			</div>
+		</div>
+	</div>
+	<div class="sidebar">
+    <div class="topo">
+        <h2>PengJieyang</h2>
+    </div>
+    <ul>
+        
+        <li>
+            <a href="/">Publication</a>
+        </li>
+        
+        <li>
+            <a href="/archives">TimeIndex</a>
+        </li>
+        
+        <li>
+            <a href="/categories">Categories</a>
+        </li>
+        
+        <li>
+            <a href="/tags">Keywords</a>
+        </li>
+        
+        <li>
+            <a href="/links">Links</a>
+        </li>
+        
+        <li>
+            <a href="/about">Authors</a>
+        </li>
+        
+    </ul>
+    <div class="my_foot">
+        
+        <a target="_blank" rel="noopener" href="https://github.com/mango-hund/">
+            <img src="https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png" alt="Quiet主题">
+        </a>
+        
+    </div>
+</div>
+<div class='shelter'
+    style='cursor: pointer;display: none; position: fixed;left: 0;top: 0; right: 0;bottom: 0;background-color: #333;opacity:0.5;z-index: 108;'>
+</div>
+<style>
+    .sidebar {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        z-index: 999;
+        text-align: center;
+        box-shadow: -6px 0 20px rgba(98, 94, 94, .815)
+    }
+
+    .topo {
+        width: 100%;
+        height: 200px;
+        background: url(https://api.ixiaowai.cn/gqapi/gqapi.php) no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        display: flex;
+        align-items: flex-end
+    }
+
+    .topo h2 {
+        color: #fff;
+        z-index: 1;
+        position: relative;
+        margin: 0 0 10px 10px;
+        font-size: 1.2em;
+        box-sizing: border-box
+    }
+
+    .topo:before {
+        content: '';
+        background-image: url(/image/pattern.png);
+        background-repeat: repeat;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1
+    }
+
+    .sidebar ul {
+        width: 100%;
+        margin-top: 50px
+    }
+
+    .sidebar ul li {
+        height: 50px;
+        list-style: none;
+        font-size: 1.2em;
+        text-align: right;
+        margin-right: 10px
+    }
+
+    .sidebar ul li a {
+        display: grid;
+        color: #5d606a;
+        text-overflow: ellipsis;
+        width: 100%;
+        text-decoration: none
+    }
+
+    .my_foot {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0
+    }
+
+    .my_foot a {
+        text-decoration: none;
+        margin-right: 10px;
+        display: inline-block
+    }
+
+    .my_foot a img {
+        width: 30px;
+        height: 30px
+    }
+</style>
+
+<script>
+    $(function () { $('.h-right-close>svg').click(function () { $('.sidebar').animate({ width: "66%" }, 500); $('.shelter').fadeIn("slow") }); $('.shelter').click(function (e) { $('.sidebar').animate({ width: "0" }, 500); $('.shelter').fadeOut("slow") }) })
+</script>
+		<script>
+			$(function () { $(window).scroll(function () { if ($(document).scrollTop() > 100) { $(".header-top").removeClass("header-move2"); $('.header-top').addClass('header-move1') } else { $(".header-top").removeClass("header-move1"); $('.header-top').addClass('header-move2') } }) });
+		</script>
+            
+                <div class="header-bg">
+                    <div class="bg-content">
+                        <span>
+        </span>
+                    </div>
+                </div>
+                <div class="article-content">
+                    <div id="article" class="content">
+                        
+                            <p>
+                                2021
+                            </p>
+                            
+                                <a href="/2021/07/19/81.A new analytical method to optimise the preventive maintenance interval by using a semi-Markov process and z-transform with an application to marine diesel engines/">
+                                    <span>A new analytical method to optimise the preventive maintenance interval by using a semi-Markov process and z-transform with an application to marine diesel engines</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2021/07/19/74.Preventive maintenance scheduling optimization based on opportunistic production-maintenance synchronization/">
+                                    <span>Preventive maintenance scheduling optimization based on opportunistic production-maintenance synchronization</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2020
+                            </p>
+                            
+                                <a href="/2020/07/19/89.Application of neural network algorithm in fault diagnosis of mechanical intelligence/">
+                                    <span>Application of neural network algorithm in fault diagnosis of mechanical intelligence</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/88.Convolutional neural network in intelligent fault diagnosis toward rotatory machinery/">
+                                    <span>Convolutional neural network in intelligent fault diagnosis toward rotatory machinery</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/86.Applications of machine learning to machine fault diagnosis A review and roadmap/">
+                                    <span>Applications of machine learning to machine fault diagnosis A review and roadmap</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/83.Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm/">
+                                    <span>Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/76.Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes/">
+                                    <span>Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/71.Preventive maintenance versus cost of repairs in asset management An efficiency analysis in wastewater treatment plants/">
+                                    <span>Preventive maintenance versus cost of repairs in asset management An efficiency analysis in wastewater treatment plants</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/70.Periodic preventive maintenance planning for systems working under a Markovian operating condition/">
+                                    <span>Periodic preventive maintenance planning for systems working under a Markovian operating condition</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/65.Deep reinforcement learning based preventive maintenance policy for serial production lines/">
+                                    <span>Deep reinforcement learning based preventive maintenance policy for serial production lines</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/117.Recurrent convolutional neural network A new framework for remaining useful life prediction of machinery/">
+                                    <span>Recurrent convolutional neural network A new framework for remaining useful life prediction of machinery</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/07/19/115.A two-stage method based on extreme learning machine for predicting the remaining useful life of rolling-element bearings/">
+                                    <span>A two-stage method based on extreme learning machine for predicting the remaining useful life of rolling-element bearings</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2020/05/19/110.Deep learning fault diagnosis method based on global optimization GAN for unbalanced data/">
+                                    <span>Deep learning fault diagnosis method based on global optimization GAN for unbalanced data</span>
+                                    <time>05-19</time>
+                                </a>
+                                
+                                <a href="/2020/03/19/103.An adaptive deep transfer learning method for bearing fault diagnosis/">
+                                    <span>An adaptive deep transfer learning method for bearing fault diagnosis</span>
+                                    <time>03-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2019
+                            </p>
+                            
+                                <a href="/2019/07/26/105.Fault diagnosis of wind turbine based on Long Short-term memory networks/">
+                                    <span>Fault diagnosis of wind turbine based on Long Short-term memory networks</span>
+                                    <time>07-26</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/98.A Review of Early Fault Diagnosis Approaches and Their Applications in Rotating Machinery/">
+                                    <span>A Review of Early Fault Diagnosis Approaches and Their Applications in Rotating Machinery</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/96.Intelligent fault diagnosis of rotating machinery based on one-dimensional convolutional neural network/">
+                                    <span>Intelligent fault diagnosis of rotating machinery based on one-dimensional convolutional neural network</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/94.A survey on Deep Learning based bearing fault diagnosis/">
+                                    <span>A survey on Deep Learning based bearing fault diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/95.Deep residual learning-based fault diagnosis method for rotating machinery/">
+                                    <span>Deep residual learning-based fault diagnosis method for rotating machinery</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/91.Research and application of improved adaptive MOMEDA fault diagnosis method/">
+                                    <span>Research and application of improved adaptive MOMEDA fault diagnosis method</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/85.A trade-off between productivity and cost for the integrated part quality inspection and preventive maintenance planning under uncertainty/">
+                                    <span>A trade-off between productivity and cost for the integrated part quality inspection and preventive maintenance planning under uncertainty</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/77.A new model based on Artificial Bee Colony algorithm for preventive maintenance with replacement scheduling in continuous production lines/">
+                                    <span>A new model based on Artificial Bee Colony algorithm for preventive maintenance with replacement scheduling in continuous production lines</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/68.A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms/">
+                                    <span>A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/66.Developing the R-TOPSIS methodology for risk-based preventive maintenance planning A case study in rolling mill company/">
+                                    <span>Developing the R-TOPSIS methodology for risk-based preventive maintenance planning A case study in rolling mill company</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/63.A two-phase preventive maintenance policy considering imperfect repair and postponed replacement/">
+                                    <span>A two-phase preventive maintenance policy considering imperfect repair and postponed replacement</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/116.Remaining useful life predictions for turbofan engine degradation using semi-supervised deep architecture/">
+                                    <span>Remaining useful life predictions for turbofan engine degradation using semi-supervised deep architecture</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/112.Deep learning-based remaining useful life estimation of bearings using multi-scale feature extraction/">
+                                    <span>Deep learning-based remaining useful life estimation of bearings using multi-scale feature extraction</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/109.Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System/">
+                                    <span>Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/19/107.Online Fault Diagnosis Method Based on Transfer Convolutional Neural Networks/">
+                                    <span>Online Fault Diagnosis Method Based on Transfer Convolutional Neural Networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2019/07/07/102.Fault diagnosis of single-phase induction motor based on acoustic signals/">
+                                    <span>Fault diagnosis of single-phase induction motor based on acoustic signals</span>
+                                    <time>07-07</time>
+                                </a>
+                                
+                                <a href="/2019/06/19/100.Mechanical fault diagnosis using Convolutional Neural Networks and Extreme Learning Machine/">
+                                    <span>Mechanical fault diagnosis using Convolutional Neural Networks and Extreme Learning Machine</span>
+                                    <time>06-19</time>
+                                </a>
+                                
+                                <a href="/2019/05/20/101.Deep Learning-Based Intelligent Fault Diagnosis Methods Toward Rotating Machinery/">
+                                    <span>Deep Learning-Based Intelligent Fault Diagnosis Methods Toward Rotating Machinery</span>
+                                    <time>05-20</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2018
+                            </p>
+                            
+                                <a href="/2018/07/19/99.Deep Convolutional Transfer Learning Network A New Method for Intelligent Fault Diagnosis of Machines with Unlabeled Data/">
+                                    <span>Deep Convolutional Transfer Learning Network A New Method for Intelligent Fault Diagnosis of Machines with Unlabeled Data</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/97.Deep Decoupling Convolutional Neural Network for Intelligent Compound Fault Diagnosis/">
+                                    <span>Deep Decoupling Convolutional Neural Network for Intelligent Compound Fault Diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/93.Highly Accurate Machine Fault Diagnosis Using Deep Transfer Learning/">
+                                    <span>Highly Accurate Machine Fault Diagnosis Using Deep Transfer Learning</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/90.Artificial intelligence for fault diagnosis of rotating machinery A review/">
+                                    <span>Artificial intelligence for fault diagnosis of rotating machinery A review</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/84.Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method/">
+                                    <span>Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/78.Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms/">
+                                    <span>Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/75.Integrated control policy of production and preventive maintenance for a deteriorating manufacturing system/">
+                                    <span>Integrated control policy of production and preventive maintenance for a deteriorating manufacturing system</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/69.Providing an integrated Model for Planning and Scheduling Energy Hubs and preventive maintenance/">
+                                    <span>Providing an integrated Model for Planning and Scheduling Energy Hubs and preventive maintenance</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/64.Hybrid preventive maintenance of competing failures under random environment/">
+                                    <span>Hybrid preventive maintenance of competing failures under random environment</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/113.Estimation of Bearing Remaining Useful Life Based on Multiscale Convolutional Neural Network/">
+                                    <span>Estimation of Bearing Remaining Useful Life Based on Multiscale Convolutional Neural Network</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/111.Remaining useful life estimation in prognostics using deep convolution neural networks/">
+                                    <span>Remaining useful life estimation in prognostics using deep convolution neural networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/07/19/108.Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox/">
+                                    <span>Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2018/05/19/106.A Novel Fault Diagnosis Method for Rotating Machinery Based on a Convolutional Neural Network/">
+                                    <span>A Novel Fault Diagnosis Method for Rotating Machinery Based on a Convolutional Neural Network</span>
+                                    <time>05-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2017
+                            </p>
+                            
+                                <a href="/2017/07/19/92.Bayesian Networks in Fault Diagnosis/">
+                                    <span>Bayesian Networks in Fault Diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/87.A New Convolutional Neural Network-Based Data-Driven Fault Diagnosis Method/">
+                                    <span>A New Convolutional Neural Network-Based Data-Driven Fault Diagnosis Method</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/82.Investigating reliability improvement of second-hand production equipment considering warranty and preventive maintenance strategies/">
+                                    <span>Investigating reliability improvement of second-hand production equipment considering warranty and preventive maintenance strategies</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/80.Opportunistic preventive maintenance scheduling for serial-parallel multistage manufacturing systems with multiple streams of deterioration/">
+                                    <span>Opportunistic preventive maintenance scheduling for serial-parallel multistage manufacturing systems with multiple streams of deterioration</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/79.RoVi Continuous transport infrastructure monitoring framework for preventive maintenance/">
+                                    <span>RoVi Continuous transport infrastructure monitoring framework for preventive maintenance</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/73.A cost-based integrated importance measure of system components for preventive maintenance/">
+                                    <span>A cost-based integrated importance measure of system components for preventive maintenance</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/72.Integrated optimization on train scheduling and preventive maintenance time slots planning/">
+                                    <span>Integrated optimization on train scheduling and preventive maintenance time slots planning</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/67.Preventive maintenance (PM) planning a review/">
+                                    <span>Preventive maintenance (PM) planning a review</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/62.A Manufacturing Big Data Solution for Active Preventive Maintenance/">
+                                    <span>A Manufacturing Big Data Solution for Active Preventive Maintenance</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/46.Railway track circuit fault diagnosis using recurrent neural networks/">
+                                    <span>Railway track circuit fault diagnosis using recurrent neural networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/42.Intelligent fault diagnosis of rolling bearing using hierarchical convolutional network based health state classification/">
+                                    <span>Intelligent fault diagnosis of rolling bearing using hierarchical convolutional network based health state classification</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/43.Automatic multi-fault recognition in TFDS based on convolutional neural network/">
+                                    <span>Automatic multi-fault recognition in TFDS based on convolutional neural network</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/07/19/114.Long Short-Term Memory Network for Remaining Useful Life Estimation/">
+                                    <span>Long Short-Term Memory Network for Remaining Useful Life Estimation</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2017/03/23/104.Fault Diagnosis for Rotating Machinery Using Multiple Sensors and Convolutional Neural Networks/">
+                                    <span>Fault Diagnosis for Rotating Machinery Using Multiple Sensors and Convolutional Neural Networks</span>
+                                    <time>03-23</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2016
+                            </p>
+                            
+                                <a href="/2016/07/19/60.ViDX Visual Diagnostics of Assembly Line Performance in Smart Factories/">
+                                    <span>ViDX Visual Diagnostics of Assembly Line Performance in Smart Factories</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/47.An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines/">
+                                    <span>An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/48.Neural network-based robust actuator fault diagnosis for a non-linear multi-tank system/">
+                                    <span>Neural network-based robust actuator fault diagnosis for a non-linear multi-tank system</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/45.Recurrent fuzzy neural cerebellar model articulation network fault-tolerant control of six-phase permanent magnet synchronous motor position servo drive/">
+                                    <span>Recurrent fuzzy neural cerebellar model articulation network fault-tolerant control of six-phase permanent magnet synchronous motor position servo drive</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/41.Rotating machinery diagnostics using deep learning on orbit plot images/">
+                                    <span>Rotating machinery diagnostics using deep learning on orbit plot images</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/40.Hierarchical adaptive deep convolution neural network and its application to bearing fault diagnosis/">
+                                    <span>Hierarchical adaptive deep convolution neural network and its application to bearing fault diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/39.Convolutional Neural Network Based Fault Detection for Rotating Machinery/">
+                                    <span>Convolutional Neural Network Based Fault Detection for Rotating Machinery</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/37.Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning/">
+                                    <span>Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/36.Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion/">
+                                    <span>Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/35.Construction of hierarchical diagnosis network based on deep learning and its application in the fault pattern recognition of rolling element bearings/">
+                                    <span>Construction of hierarchical diagnosis network based on deep learning and its application in the fault pattern recognition of rolling element bearings</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2016/07/19/34.High-dimensional and large-scale anomaly detection using a linear one-class SVM with deep learning/">
+                                    <span>High-dimensional and large-scale anomaly detection using a linear one-class SVM with deep learning</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2015
+                            </p>
+                            
+                                <a href="/2015/08/17/2.An industrial big data pipeline for data-driven analytics maintenance applications/">
+                                    <span>An industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities</span>
+                                    <time>08-17</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/44.Methodology of neural modeling in fault detection with the use of chaos engineering/">
+                                    <span>Methodology of neural modeling in fault detection with the use of chaos engineering</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/38.Gearbox fault identification and classification with convolutional neural networks/">
+                                    <span>Gearbox fault identification and classification with convolutional neural networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/33.The early-warning model of equipment chain in gas pipeline based on DNN-HMM/">
+                                    <span>The early-warning model of equipment chain in gas pipeline based on DNN-HMM</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/32.Rolling bearing fault diagnosis using an optimization deep belief network/">
+                                    <span>Rolling bearing fault diagnosis using an optimization deep belief network</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/31.Multimodal deep support vector classification with homologous features and its application to gearbox fault diagnosis/">
+                                    <span>Multimodal deep support vector classification with homologous features and its application to gearbox fault diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/30.Multi-layer neural network with deep belief network for gearbox fault diagnosis/">
+                                    <span>Multi-layer neural network with deep belief network for gearbox fault diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/29.Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network/">
+                                    <span>Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/13.Cleaning Method for Big Data of Power Transmission and Transformation Equipment State Based on Time Sequence Analysis/">
+                                    <span>Cleaning Method for Big Data of Power Transmission and Transformation Equipment State Based on Time Sequence Analysis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2015/07/19/1.A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems/">
+                                    <span>A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2014
+                            </p>
+                            
+                                <a href="/2014/07/19/5.Estimation of failure probability of milk manufacturing unit by fuzzy fault tree analysis/">
+                                    <span>Estimation of failure probability of milk manufacturing unit by fuzzy fault tree analysis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2014/07/19/11.Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications/">
+                                    <span>Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2013
+                            </p>
+                            
+                                <a href="/2013/07/19/28.An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks/">
+                                    <span>An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2013/07/19/27.Failure diagnosis using deep belief learning based health state classification/">
+                                    <span>Failure diagnosis using deep belief learning based health state classification</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2013/07/19/12.Copula-based model for wind turbine power curveoutlier rejection/">
+                                    <span>Copula-based model for wind turbine power curveoutlier rejection</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2012
+                            </p>
+                            
+                                <a href="/2012/07/19/16.Using fuzzy logic for robust event detection in wireless sensor networks/">
+                                    <span>Using fuzzy logic for robust event detection in wireless sensor networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2011
+                            </p>
+                            
+                                <a href="/2011/07/19/58.A prognosis method using age-dependent hidden semi-Markov model for equipment health prediction/">
+                                    <span>A prognosis method using age-dependent hidden semi-Markov model for equipment health prediction</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2011/07/19/55.Research on health assessment based on hidden Markov model/">
+                                    <span>Research on health assessment based on hidden Markov model</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2011/07/19/4.Case-based expert system using wavelet packet transform/">
+                                    <span>Case-based expert system using wavelet packet transform and kernel-based feature manipulation for engine ignition system diagnosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2011/07/19/22.A multiple linear regression data predicting method using correlation analysis for wireless sensor networks/">
+                                    <span>A multiple linear regression data predicting method using correlation analysis for wireless sensor networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2011/07/19/23.Machine health prognostics using survival probability and support vector machine/">
+                                    <span>Machine health prognostics using survival probability and support vector machine</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2011/07/19/20.Application of wavelet transform of acoustic emission and cutting force signals for tool condition monitoring in rough turning of Inconel 625/">
+                                    <span>Application of wavelet transform of acoustic emission and cutting force signals for tool condition monitoring in rough turning of Inconel 625</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2010
+                            </p>
+                            
+                                <a href="/2010/07/19/7.Identification of out of control quality characteristics in a multivariate manufacturing environment/">
+                                    <span>Identification of out of control quality characteristics in a multivariate manufacturing environment</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2010/07/19/51.A New Fault Detection Method of Induction Motor/">
+                                    <span>A New Fault Detection Method of Induction Motor</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2010/07/19/52.Detection of broken rotor bars in induction motors using nonlinear Kalman filters/">
+                                    <span>Detection of broken rotor bars in induction motors using nonlinear Kalman filters</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2010/07/19/21.A cutter tool monitoring in machining process using Hilbert–Huang transform/">
+                                    <span>A cutter tool monitoring in machining process using Hilbert–Huang transform</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2009
+                            </p>
+                            
+                                <a href="/2009/07/19/50.Application of a Bank of Kalman Filters for Aircraft Engine Fault Diagnostics/">
+                                    <span>Application of a Bank of Kalman Filters for Aircraft Engine Fault Diagnostics</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2009/07/19/17.Fault diagnosis based on Walsh transform and rough sets/">
+                                    <span>Fault diagnosis based on Walsh transform and rough sets</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2008
+                            </p>
+                            
+                                <a href="/2008/07/19/26.Fault detection and diagnosis for railway track circuits using neuro-fuzzy systems/">
+                                    <span>Fault detection and diagnosis for railway track circuits using neuro-fuzzy systems</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2008/07/19/14.Multi-sensor data fusion in cluster based wireless sensor networks using fuzzy logic method/">
+                                    <span>Multi-sensor data fusion in cluster based wireless sensor networks using fuzzy logic method</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2007
+                            </p>
+                            
+                                <a href="/2007/07/19/57.A segmental hidden semi-Markov model (HSMM)-based diagnostics and prognostics framework and methodology/">
+                                    <span>A segmental hidden semi-Markov model (HSMM)-based diagnostics and prognostics framework and methodology</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2007/07/19/56.Hidden semi-Markov model based methodology for multi-sensor equipment health diagnosis and prognosis/">
+                                    <span>Hidden semi-Markov model based methodology for multi-sensor equipment health diagnosis and prognosis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2007/07/19/15.Data Fusion Algorithms in Cluster-based Wireless Sensor Networks sing Fuzzy Logic Theory/">
+                                    <span>Data Fusion Algorithms in Cluster-based Wireless Sensor Networks sing Fuzzy Logic Theory</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2006
+                            </p>
+                            
+                                <a href="/2006/07/19/54.Hierarchical HMMs for autonomous diagnostics and prognostics/">
+                                    <span>Hierarchical HMMs for autonomous diagnostics and prognostics</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2006/07/19/24.On-line fan blade damage detection using neural networks/">
+                                    <span>On-line fan blade damage detection using neural networks</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2006/06/21/3.Intelligent Fault Diagnosis and Prognosis for Engineering Systems/">
+                                    <span>Intelligent Fault Diagnosis and Prognosis for Engineering Systems</span>
+                                    <time>06-21</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2004
+                            </p>
+                            
+                                <a href="/2004/07/19/61.Maintenance Changing Role in Life Cycle Management/">
+                                    <span>Maintenance Changing Role in Life Cycle Management</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2004/07/19/53.HMMs for diagnostics and prognostics in machining processes/">
+                                    <span>HMMs for diagnostics and prognostics in machining processes</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2004/07/19/10.A prognostic algorithm for machine performance assessment and its application/">
+                                    <span>A prognostic algorithm for machine performance assessment and its application</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2003
+                            </p>
+                            
+                                <a href="/2003/07/19/59.Robust performance degradation assessment methods for enhanced rolling element bearing prognostics/">
+                                    <span>Robust performance degradation assessment methods for enhanced rolling element bearing prognostics</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2003/07/19/19.Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis/">
+                                    <span>Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                <a href="/2003/07/19/18.Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis/">
+                                    <span>Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2002
+                            </p>
+                            
+                                <a href="/2002/07/19/6.Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach/">
+                                    <span>Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                2000
+                            </p>
+                            
+                                <a href="/2000/07/19/25.Fault diagnosis of electronic analog circuits using a radial basis function network classifier/">
+                                    <span>Fault diagnosis of electronic analog circuits using a radial basis function network classifier</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                1999
+                            </p>
+                            
+                                <a href="/1999/07/19/49.Prognostic modelling of crack growth in a tensioned steel band/">
+                                    <span>Prognostic modelling of crack growth in a tensioned steel band</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                1997
+                            </p>
+                            
+                                <a href="/1997/07/19/8.Diagnostic tools for multivariable/">
+                                    <span>Diagnostic tools for multivariable model-based control systems</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                            <p>
+                                1996
+                            </p>
+                            
+                                <a href="/1996/07/19/9.Statistical process monitoring and disturbance diagnosis in multivariable continuous processes/">
+                                    <span>Statistical process monitoring and disturbance diagnosis in multivariable continuous processes</span>
+                                    <time>07-19</time>
+                                </a>
+                                
+                                    
+                    </div>
+                </div>
+
+
+
+
+                <script>
+                    $(function() {
+                        $('.article-content').addClass('content-move');
+                    })
+                </script>
+		
+<link rel="stylesheet" href="/css/food.css">
+
+<div class="footer">
+	<div class="Copyright">
+		©2021 By PengJieyang. 主题：<a
+			style="text-decoration: none;display: contents; color: #898F9F;"
+			target="_blank" rel="noopener" href="https://github.com/qiaobug/hexo-theme-quiet">Quiet</a>
+	</div>
+	<div class="contact">
+		
+		<a target="_blank" rel="noopener" href="https://github.com/mango-hund/">
+			<img src="https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png" alt="Quiet主题">
+		</a>
+		
+	</div>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+
+
+<script src="/js/gotop.js"></script>
+
+
+<style type="text/css">
+    @media screen and (min-width: 600px) {
+        .goTop>span {
+            display: block;
+            border-radius: 50%;
+            width: 66px;
+            height: 66px;
+            cursor: pointer;
+            opacity: 0.8;
+            background: rgba(18, 24, 58, 0.06);
+            text-align: center;
+            border: 1px solid rgba(18, 24, 58, 0.06);
+
+            transition: border .5s;
+            -moz-transition: border .5s;
+            /* Firefox 4 */
+            -webkit-transition: border .5s;
+            /* Safari 和 Chrome */
+            -o-transition: border .5s;
+            /* Opera */
+        }
+
+        .goTop>span:hover {
+            border: 1px solid #6680B3;
+        }
+
+
+        .goTop {
+            position: fixed;
+            right: 30px;
+            bottom: 80px;
+        }
+
+        .goTop>span>svg {
+            width: 30px;
+            height: 30px;
+            margin-top: 17.5px;
+            opacity: 0.7;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+        .goTop {
+            display: none;
+        }
+    }
+</style>
+<div class="goTop" id="js-go_top">
+    <span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <g>
+                <path d="M13 12v8h-2v-8H4l8-8 8 8z"></path>
+            </g>
+        </svg>
+    </span>
+</div>
+<script>
+    $('#js-go_top').gotoTop({ offset: 500, speed: 300, animationShow: { 'transform': 'translate(0,0)', 'transition': 'transform .5s ease-in-out' }, animationHide: { 'transform': 'translate(100px,0)', 'transition': 'transform .5s ease-in-out' } });
+</script>
+<script>
+	console.log('\n %c Hexo-Quiet 主题 %c https://github.com/QiaoBug/hexo-theme-quiet \n', 'color: #fadfa3; background: #030307; padding:5px 0;', 'background: #fadfa3; padding:5px 0;')
+</script>
+	</body>
+
+</html>
