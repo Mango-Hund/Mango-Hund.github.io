@@ -32,81 +32,81 @@
 
 <link rel="stylesheet" href="/css/header.css">
 
-	<div class="header">
-		<div class="header-top">
-			<div class="h-left">
-				<a href="/">
-					<img src="\image\logo.png" alt="Quiet">
-				</a>
-			</div>
-			<div class="h-right">
-				<ul>
-					
-						
-								<li>
-									<a href="/">
-										Publication
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/archives">
-										TimeIndex
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/categories">
-										Categories
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/tags">
-										Keywords
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/links">
-										Links
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/about">
-										Authors
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-				</ul>
-			</div>
-			<div class="h-right-close">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+    <div class="header">
+        <div class="header-top">
+            <div class="h-left">
+                <a href="/">
+                    <img src="\image\logo.png">
+                </a>
+            </div>
+            <div class="h-right">
+                <ul>
+                    
+                        
+                                <li>
+                                    <a href="/">
+                                        Publication
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/archives">
+                                        TimeIndex
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/categories">
+                                        Categories
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/tags">
+                                        Keywords
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/links">
+                                        Links
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/about">
+                                        Authors
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                </ul>
+            </div>
+            <div class="h-right-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
 					<path fill="none" d="M0 0h24v24H0z" />
 					<path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" fill="rgba(68,68,68,1)" />
 				</svg>
-			</div>
-		</div>
-	</div>
-	<div class="sidebar">
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
     <div class="topo">
         <h2>PengJieyang</h2>
     </div>
@@ -237,9 +237,19 @@
 <script>
     $(function () { $('.h-right-close>svg').click(function () { $('.sidebar').animate({ width: "66%" }, 500); $('.shelter').fadeIn("slow") }); $('.shelter').click(function (e) { $('.sidebar').animate({ width: "0" }, 500); $('.shelter').fadeOut("slow") }) })
 </script>
-		<script>
-			$(function () { $(window).scroll(function () { if ($(document).scrollTop() > 100) { $(".header-top").removeClass("header-move2"); $('.header-top').addClass('header-move1') } else { $(".header-top").removeClass("header-move1"); $('.header-top').addClass('header-move2') } }) });
-		</script>
+        <script>
+            $(function() {
+                $(window).scroll(function() {
+                    if ($(document).scrollTop() > 100) {
+                        $(".header-top").removeClass("header-move2");
+                        $('.header-top').addClass('header-move1')
+                    } else {
+                        $(".header-top").removeClass("header-move1");
+                        $('.header-top').addClass('header-move2')
+                    }
+                })
+            });
+        </script>
 <div class="header-bg ">
     <div class="bg-content">
         <ul class="tag">
@@ -307,10 +317,10 @@
 </script>
 <div class="Last-Next">
     
-    <a href="/2010/07/19/51.A%20New%20Fault%20Detection%20Method%20of%20Induction%20Motor/">
+    <a href="/2010/07/19/52.Detection%20of%20broken%20rotor%20bars%20in%20induction%20motors%20using%20nonlinear%20Kalman%20filters/">
         <div class="last">
             <span>上一篇</span>
-            <p>A New Fault Detection Method of Induction Motor</p>
+            <p>Detection of broken rotor bars in induction motors using nonlinear Kalman filters</p>
         </div>
     </a>
     

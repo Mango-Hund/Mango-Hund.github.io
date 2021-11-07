@@ -22,81 +22,81 @@
 		
 <link rel="stylesheet" href="/css/header.css">
 
-	<div class="header">
-		<div class="header-top">
-			<div class="h-left">
-				<a href="/">
-					<img src="\image\logo.png" alt="Quiet">
-				</a>
-			</div>
-			<div class="h-right">
-				<ul>
-					
-						
-								<li>
-									<a href="/">
-										Publication
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/archives">
-										TimeIndex
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-							<li class="select">
-								<a href="/categories">
-									Categories
-								</a>
-								<span class="dot"></span>
-							</li>
-							
-									
-						
-								<li>
-									<a href="/tags">
-										Keywords
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/links">
-										Links
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-						
-								<li>
-									<a href="/about">
-										Authors
-									</a>
-									<span class="dot"></span>
-								</li>
-								
-									
-				</ul>
-			</div>
-			<div class="h-right-close">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+    <div class="header">
+        <div class="header-top">
+            <div class="h-left">
+                <a href="/">
+                    <img src="\image\logo.png">
+                </a>
+            </div>
+            <div class="h-right">
+                <ul>
+                    
+                        
+                                <li>
+                                    <a href="/">
+                                        Publication
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/archives">
+                                        TimeIndex
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                            <li class="select">
+                                <a href="/categories">
+                                    Categories
+                                </a>
+                                <span class="dot"></span>
+                            </li>
+                            
+                                    
+                        
+                                <li>
+                                    <a href="/tags">
+                                        Keywords
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/links">
+                                        Links
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                        
+                                <li>
+                                    <a href="/about">
+                                        Authors
+                                    </a>
+                                    <span class="dot"></span>
+                                </li>
+                                
+                                    
+                </ul>
+            </div>
+            <div class="h-right-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
 					<path fill="none" d="M0 0h24v24H0z" />
 					<path d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z" fill="rgba(68,68,68,1)" />
 				</svg>
-			</div>
-		</div>
-	</div>
-	<div class="sidebar">
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
     <div class="topo">
         <h2>PengJieyang</h2>
     </div>
@@ -227,9 +227,19 @@
 <script>
     $(function () { $('.h-right-close>svg').click(function () { $('.sidebar').animate({ width: "66%" }, 500); $('.shelter').fadeIn("slow") }); $('.shelter').click(function (e) { $('.sidebar').animate({ width: "0" }, 500); $('.shelter').fadeOut("slow") }) })
 </script>
-		<script>
-			$(function () { $(window).scroll(function () { if ($(document).scrollTop() > 100) { $(".header-top").removeClass("header-move2"); $('.header-top').addClass('header-move1') } else { $(".header-top").removeClass("header-move1"); $('.header-top').addClass('header-move2') } }) });
-		</script>
+        <script>
+            $(function() {
+                $(window).scroll(function() {
+                    if ($(document).scrollTop() > 100) {
+                        $(".header-top").removeClass("header-move2");
+                        $('.header-top').addClass('header-move1')
+                    } else {
+                        $(".header-top").removeClass("header-move1");
+                        $('.header-top').addClass('header-move2')
+                    }
+                })
+            });
+        </script>
     
 <link rel="stylesheet" href="/css/categories.css">
 
@@ -242,68 +252,6 @@
             <div id="article" class="content">
                 <ul class="onclickul">
                     
-                        <li>
-                            <div class="link">
-                                Review
-                                    <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
-                        <path
-                            d="M454.188 785.022c-145.192-150.177-290.378-300.353-435.422-450.526-59.842-61.836 37.327-154.021 97.313-91.899 129.23 133.647 258.318 267.296 387.548 400.868 133.646-134.287 267.436-268.574 401.083-402.934 60.84-61.123 158.011 31.060 97.244 91.971-150.105 150.89-300.279 301.703-450.454 452.521-24.933 24.934-72.666 25.575-97.311 0z"
-                            p-id="4804" fill="#3C4858"></path>
-                    </svg>
-                            </div>
-                            <ul class="submenu">
-                                
-                                    <li>
-                                        <a href="/2015/07/19/1.A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems/">
-                                            A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2014/07/19/11.Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications/">
-                                            Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2006/06/21/3.Intelligent Fault Diagnosis and Prognosis for Engineering Systems/">
-                                            Intelligent Fault Diagnosis and Prognosis for Engineering Systems
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2004/07/19/61.Maintenance Changing Role in Life Cycle Management/">
-                                            Maintenance Changing Role in Life Cycle Management
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2017/07/19/67.Preventive maintenance (PM) planning a review/">
-                                            Preventive maintenance (PM) planning a review
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2020/07/19/86.Applications of machine learning to machine fault diagnosis A review and roadmap/">
-                                            Applications of machine learning to machine fault diagnosis A review and roadmap
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2018/07/19/90.Artificial intelligence for fault diagnosis of rotating machinery A review/">
-                                            Artificial intelligence for fault diagnosis of rotating machinery A review
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2019/07/19/94.A survey on Deep Learning based bearing fault diagnosis/">
-                                            A survey on Deep Learning based bearing fault diagnosis
-                                        </a>
-                                    </li>
-                                    
-                            </ul>
-                        </li>
-                        
                         <li>
                             <div class="link">
                                 Remaining_Useful_Life
@@ -386,6 +334,68 @@
                         
                         <li>
                             <div class="link">
+                                Review
+                                    <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
+                        <path
+                            d="M454.188 785.022c-145.192-150.177-290.378-300.353-435.422-450.526-59.842-61.836 37.327-154.021 97.313-91.899 129.23 133.647 258.318 267.296 387.548 400.868 133.646-134.287 267.436-268.574 401.083-402.934 60.84-61.123 158.011 31.060 97.244 91.971-150.105 150.89-300.279 301.703-450.454 452.521-24.933 24.934-72.666 25.575-97.311 0z"
+                            p-id="4804" fill="#3C4858"></path>
+                    </svg>
+                            </div>
+                            <ul class="submenu">
+                                
+                                    <li>
+                                        <a href="/2015/07/19/1.A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems/">
+                                            A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2014/07/19/11.Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications/">
+                                            Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2006/06/21/3.Intelligent Fault Diagnosis and Prognosis for Engineering Systems/">
+                                            Intelligent Fault Diagnosis and Prognosis for Engineering Systems
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2004/07/19/61.Maintenance Changing Role in Life Cycle Management/">
+                                            Maintenance Changing Role in Life Cycle Management
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2017/07/19/67.Preventive maintenance (PM) planning a review/">
+                                            Preventive maintenance (PM) planning a review
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2020/07/19/86.Applications of machine learning to machine fault diagnosis A review and roadmap/">
+                                            Applications of machine learning to machine fault diagnosis A review and roadmap
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2018/07/19/90.Artificial intelligence for fault diagnosis of rotating machinery A review/">
+                                            Artificial intelligence for fault diagnosis of rotating machinery A review
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2019/07/19/94.A survey on Deep Learning based bearing fault diagnosis/">
+                                            A survey on Deep Learning based bearing fault diagnosis
+                                        </a>
+                                    </li>
+                                    
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <div class="link">
                                 Fault_Diagnosis
                                     <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
                         <path
@@ -444,14 +454,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2019/07/19/109.Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System/">
-                                            Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System
+                                        <a href="/2018/07/19/108.Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox/">
+                                            Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2018/07/19/108.Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox/">
-                                            Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox
+                                        <a href="/2019/07/19/109.Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System/">
+                                            Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System
                                         </a>
                                     </li>
                                     
@@ -486,14 +496,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2003/07/19/18.Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis/">
-                                            Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis
+                                        <a href="/2003/07/19/19.Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis/">
+                                            Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2003/07/19/19.Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis/">
-                                            Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis
+                                        <a href="/2003/07/19/18.Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis/">
+                                            Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis
                                         </a>
                                     </li>
                                     
@@ -516,14 +526,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2013/07/19/28.An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks/">
-                                            An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks
+                                        <a href="/2015/07/19/29.Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network/">
+                                            Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2015/07/19/29.Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network/">
-                                            Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network
+                                        <a href="/2013/07/19/28.An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks/">
+                                            An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks
                                         </a>
                                     </li>
                                     
@@ -558,8 +568,8 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2016/07/19/36.Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion/">
-                                            Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion
+                                        <a href="/2016/07/19/37.Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning/">
+                                            Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning
                                         </a>
                                     </li>
                                     
@@ -570,26 +580,26 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2016/07/19/37.Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning/">
-                                            Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
                                         <a href="/2015/07/19/38.Gearbox fault identification and classification with convolutional neural networks/">
                                             Gearbox fault identification and classification with convolutional neural networks
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2016/07/19/39.Convolutional Neural Network Based Fault Detection for Rotating Machinery/">
-                                            Convolutional Neural Network Based Fault Detection for Rotating Machinery
+                                        <a href="/2016/07/19/36.Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion/">
+                                            Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion
                                         </a>
                                     </li>
                                     
                                     <li>
                                         <a href="/2011/07/19/4.Case-based expert system using wavelet packet transform/">
                                             Case-based expert system using wavelet packet transform and kernel-based feature manipulation for engine ignition system diagnosis
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2016/07/19/39.Convolutional Neural Network Based Fault Detection for Rotating Machinery/">
+                                            Convolutional Neural Network Based Fault Detection for Rotating Machinery
                                         </a>
                                     </li>
                                     
@@ -606,12 +616,6 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2017/07/19/43.Automatic multi-fault recognition in TFDS based on convolutional neural network/">
-                                            Automatic multi-fault recognition in TFDS based on convolutional neural network
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
                                         <a href="/2017/07/19/42.Intelligent fault diagnosis of rolling bearing using hierarchical convolutional network based health state classification/">
                                             Intelligent fault diagnosis of rolling bearing using hierarchical convolutional network based health state classification
                                         </a>
@@ -624,6 +628,12 @@
                                     </li>
                                     
                                     <li>
+                                        <a href="/2017/07/19/43.Automatic multi-fault recognition in TFDS based on convolutional neural network/">
+                                            Automatic multi-fault recognition in TFDS based on convolutional neural network
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
                                         <a href="/2016/07/19/45.Recurrent fuzzy neural cerebellar model articulation network fault-tolerant control of six-phase permanent magnet synchronous motor position servo drive/">
                                             Recurrent fuzzy neural cerebellar model articulation network fault-tolerant control of six-phase permanent magnet synchronous motor position servo drive
                                         </a>
@@ -632,6 +642,12 @@
                                     <li>
                                         <a href="/2017/07/19/46.Railway track circuit fault diagnosis using recurrent neural networks/">
                                             Railway track circuit fault diagnosis using recurrent neural networks
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2016/07/19/47.An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines/">
+                                            An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines
                                         </a>
                                     </li>
                                     
@@ -654,14 +670,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2010/07/19/52.Detection of broken rotor bars in induction motors using nonlinear Kalman filters/">
-                                            Detection of broken rotor bars in induction motors using nonlinear Kalman filters
+                                        <a href="/2010/07/19/51.A New Fault Detection Method of Induction Motor/">
+                                            A New Fault Detection Method of Induction Motor
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2010/07/19/51.A New Fault Detection Method of Induction Motor/">
-                                            A New Fault Detection Method of Induction Motor
+                                        <a href="/2010/07/19/52.Detection of broken rotor bars in induction motors using nonlinear Kalman filters/">
+                                            Detection of broken rotor bars in induction motors using nonlinear Kalman filters
                                         </a>
                                     </li>
                                     
@@ -678,20 +694,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2016/07/19/47.An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines/">
-                                            An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines
+                                        <a href="/2002/07/19/6.Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach/">
+                                            Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach
                                         </a>
                                     </li>
                                     
                                     <li>
                                         <a href="/2003/07/19/59.Robust performance degradation assessment methods for enhanced rolling element bearing prognostics/">
                                             Robust performance degradation assessment methods for enhanced rolling element bearing prognostics
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2002/07/19/6.Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach/">
-                                            Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach
                                         </a>
                                     </li>
                                     
@@ -818,6 +828,32 @@
                         
                         <li>
                             <div class="link">
+                                Survey
+                                    <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
+                        <path
+                            d="M454.188 785.022c-145.192-150.177-290.378-300.353-435.422-450.526-59.842-61.836 37.327-154.021 97.313-91.899 129.23 133.647 258.318 267.296 387.548 400.868 133.646-134.287 267.436-268.574 401.083-402.934 60.84-61.123 158.011 31.060 97.244 91.971-150.105 150.89-300.279 301.703-450.454 452.521-24.933 24.934-72.666 25.575-97.311 0z"
+                            p-id="4804" fill="#3C4858"></path>
+                    </svg>
+                            </div>
+                            <ul class="submenu">
+                                
+                                    <li>
+                                        <a href="/2015/08/17/2.An industrial big data pipeline for data-driven analytics maintenance applications/">
+                                            An industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="/2017/07/19/62.A Manufacturing Big Data Solution for Active Preventive Maintenance/">
+                                            A Manufacturing Big Data Solution for Active Preventive Maintenance
+                                        </a>
+                                    </li>
+                                    
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <div class="link">
                                 Health_Assessment
                                     <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
                         <path
@@ -874,32 +910,6 @@
                         
                         <li>
                             <div class="link">
-                                Survey
-                                    <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
-                        <path
-                            d="M454.188 785.022c-145.192-150.177-290.378-300.353-435.422-450.526-59.842-61.836 37.327-154.021 97.313-91.899 129.23 133.647 258.318 267.296 387.548 400.868 133.646-134.287 267.436-268.574 401.083-402.934 60.84-61.123 158.011 31.060 97.244 91.971-150.105 150.89-300.279 301.703-450.454 452.521-24.933 24.934-72.666 25.575-97.311 0z"
-                            p-id="4804" fill="#3C4858"></path>
-                    </svg>
-                            </div>
-                            <ul class="submenu">
-                                
-                                    <li>
-                                        <a href="/2015/08/17/2.An industrial big data pipeline for data-driven analytics maintenance applications/">
-                                            An industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2017/07/19/62.A Manufacturing Big Data Solution for Active Preventive Maintenance/">
-                                            A Manufacturing Big Data Solution for Active Preventive Maintenance
-                                        </a>
-                                    </li>
-                                    
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <div class="link">
                                 Preventive_Maintenance
                                     <svg t="1602294178324" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4803" width="200" height="200">
                         <path
@@ -910,20 +920,14 @@
                             <ul class="submenu">
                                 
                                     <li>
-                                        <a href="/2019/07/19/63.A two-phase preventive maintenance policy considering imperfect repair and postponed replacement/">
-                                            A two-phase preventive maintenance policy considering imperfect repair and postponed replacement
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
                                         <a href="/2018/07/19/64.Hybrid preventive maintenance of competing failures under random environment/">
                                             Hybrid preventive maintenance of competing failures under random environment
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2020/07/19/65.Deep reinforcement learning based preventive maintenance policy for serial production lines/">
-                                            Deep reinforcement learning based preventive maintenance policy for serial production lines
+                                        <a href="/2019/07/19/63.A two-phase preventive maintenance policy considering imperfect repair and postponed replacement/">
+                                            A two-phase preventive maintenance policy considering imperfect repair and postponed replacement
                                         </a>
                                     </li>
                                     
@@ -934,8 +938,8 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2019/07/19/68.A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms/">
-                                            A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms
+                                        <a href="/2020/07/19/65.Deep reinforcement learning based preventive maintenance policy for serial production lines/">
+                                            Deep reinforcement learning based preventive maintenance policy for serial production lines
                                         </a>
                                     </li>
                                     
@@ -946,20 +950,26 @@
                                     </li>
                                     
                                     <li>
+                                        <a href="/2019/07/19/68.A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms/">
+                                            A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
                                         <a href="/2020/07/19/70.Periodic preventive maintenance planning for systems working under a Markovian operating condition/">
                                             Periodic preventive maintenance planning for systems working under a Markovian operating condition
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2017/07/19/72.Integrated optimization on train scheduling and preventive maintenance time slots planning/">
-                                            Integrated optimization on train scheduling and preventive maintenance time slots planning
+                                        <a href="/2020/07/19/71.Preventive maintenance versus cost of repairs in asset management An efficiency analysis in wastewater treatment plants/">
+                                            Preventive maintenance versus cost of repairs in asset management An efficiency analysis in wastewater treatment plants
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2020/07/19/71.Preventive maintenance versus cost of repairs in asset management An efficiency analysis in wastewater treatment plants/">
-                                            Preventive maintenance versus cost of repairs in asset management An efficiency analysis in wastewater treatment plants
+                                        <a href="/2017/07/19/72.Integrated optimization on train scheduling and preventive maintenance time slots planning/">
+                                            Integrated optimization on train scheduling and preventive maintenance time slots planning
                                         </a>
                                     </li>
                                     
@@ -976,6 +986,12 @@
                                     </li>
                                     
                                     <li>
+                                        <a href="/2020/07/19/76.Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes/">
+                                            Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
                                         <a href="/2018/07/19/75.Integrated control policy of production and preventive maintenance for a deteriorating manufacturing system/">
                                             Integrated control policy of production and preventive maintenance for a deteriorating manufacturing system
                                         </a>
@@ -988,20 +1004,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2020/07/19/76.Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes/">
-                                            Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes
+                                        <a href="/2018/07/19/78.Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms/">
+                                            Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms
                                         </a>
                                     </li>
                                     
                                     <li>
                                         <a href="/2017/07/19/79.RoVi Continuous transport infrastructure monitoring framework for preventive maintenance/">
                                             RoVi Continuous transport infrastructure monitoring framework for preventive maintenance
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a href="/2018/07/19/78.Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms/">
-                                            Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms
                                         </a>
                                     </li>
                                     
@@ -1024,14 +1034,14 @@
                                     </li>
                                     
                                     <li>
-                                        <a href="/2020/07/19/83.Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm/">
-                                            Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm
+                                        <a href="/2018/07/19/84.Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method/">
+                                            Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method
                                         </a>
                                     </li>
                                     
                                     <li>
-                                        <a href="/2018/07/19/84.Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method/">
-                                            Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method
+                                        <a href="/2020/07/19/83.Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm/">
+                                            Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm
                                         </a>
                                     </li>
                                     

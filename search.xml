@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems</title>
-    <url>/2015/07/19/1.A%20Cyber-Physical%20Systems%20architecture%20for%20Industry%204.0-based%20manufacturing%20systems/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Jay Lee, Behrad Bagheri, Hung-An Kao</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Recent advances in manufacturing industry has paved way for a systematical deployment of Cyber-Physical Systems (CPS), within which information from all related perspectives is closely monitored and synchronized between the physical factory floor and the cyber computational space. Moreover, by utilizing advanced information analytics, networked machines will be able to perform more efficiently, collaboratively and resiliently. Such trend is transforming manufacturing industry to the next generation, namely Industry 4.0. At this early development phase, there is an urgent need for a clear definition of CPS. In this paper, a unified 5-level architecture is proposed as a guideline for implementation of CPS.  </p>
-<p><strong>Keywords</strong>：Cyber-Physical, System Industry 4.0, Health management and prognostics, Time machine</p>
-<p><img src="/image/fig/1.jpg" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S221384631400025X">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Review</category>
-      </categories>
-      <tags>
-        <tag>Hybrid</tag>
-        <tag>Machine-Tool</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>A prognostic algorithm for machine performance assessment and its application</title>
     <url>/2004/07/19/10.A%20prognostic%20algorithm%20for%20machine%20performance%20assessment%20and%20its%20application/</url>
     <content><![CDATA[<p><strong>Author</strong>：Jihong Yan , Muammer Koç &amp; Jay Lee</p>
@@ -34,9 +15,28 @@
         <category>Remaining_Useful_Life</category>
       </categories>
       <tags>
-        <tag>Machine-Tool</tag>
         <tag>Production-Planning-And-Control</tag>
         <tag>Logistic-Regression</tag>
+        <tag>Machine-Tool</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A Cyber-Physical Systems architecture for Industry 4.0-based manufacturing systems</title>
+    <url>/2015/07/19/1.A%20Cyber-Physical%20Systems%20architecture%20for%20Industry%204.0-based%20manufacturing%20systems/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Jay Lee, Behrad Bagheri, Hung-An Kao</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Recent advances in manufacturing industry has paved way for a systematical deployment of Cyber-Physical Systems (CPS), within which information from all related perspectives is closely monitored and synchronized between the physical factory floor and the cyber computational space. Moreover, by utilizing advanced information analytics, networked machines will be able to perform more efficiently, collaboratively and resiliently. Such trend is transforming manufacturing industry to the next generation, namely Industry 4.0. At this early development phase, there is an urgent need for a clear definition of CPS. In this paper, a unified 5-level architecture is proposed as a guideline for implementation of CPS.  </p>
+<p><strong>Keywords</strong>：Cyber-Physical, System Industry 4.0, Health management and prognostics, Time machine</p>
+<p><img src="/image/fig/1.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S221384631400025X">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Review</category>
+      </categories>
+      <tags>
+        <tag>Machine-Tool</tag>
+        <tag>Hybrid</tag>
       </tags>
   </entry>
   <entry>
@@ -196,25 +196,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System</title>
-    <url>/2019/07/19/109.Fault%20Diagnosis%20Method%20Based%20on%20Principal%20Component%20Analysis%20and%20Broad%20Learning%20System/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Zhao, H., Zheng, J., Xu, J., &amp; Deng, W.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Traditional feature extraction methods are used to extract the features of signal to construct the fault feature matrix, which exists the complex structure, higher correlation, and redundancy. This will increase the complex fault classification and seriously affect the accuracy and efficiency of fault identification. In order to solve these problems, a new fault diagnosis (PABSFD) method based on the principal component analysis (PCA) and the broad learning system (BLS) is proposed for rotor system in this paper. In the proposed PABSFD method, the PCA with revealing the signal essence is used to reduce the dimension of the constructed feature matrix and decrease the linear feature correlation between data and eliminate the redundant attributes in order to obtain the low-dimensional feature matrix with retaining the essential features for the classification model. Then, the BLS with low time complexity and high classification accuracy is regarded as a classification model to realize the fault identification; it can efficiently accomplish the fault classification of rotor system. Finally, the actual vibration data of rotor system are selected to test and verify the effectiveness of the PABSFD method. The experimental results show that the PCA method can effectively eliminate the feature correlation and realize the dimension reduction of the feature matrix, the BLS can take on better adaptability, faster computation speed, and higher classification accuracy, and the PABSFD method can efficiently and accurately obtain the fault diagnosis results.</p>
-<p><strong>Keywords</strong>：Rotor system; fault diagnosis; principal component analysis (PCA); broad learning system (BLS); dimension reduction</p>
-<p><img src="/image/fig/109.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://ieeexplore.ieee.org/abstract/document/8764347">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Principal-Component-Analysis</tag>
-        <tag>Motor</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Multiscale Convolutional Neural Networks for Fault Diagnosis of Wind Turbine Gearbox</title>
     <url>/2018/07/19/108.Multiscale%20Convolutional%20Neural%20Networks%20for%20Fault%20Diagnosis%20of%20Wind%20Turbine%20Gearbox/</url>
     <content><![CDATA[<p><strong>Author</strong>：Jiang, G., He, H., Yan, J., &amp; Xie, P.</p>
@@ -235,6 +216,44 @@
       </tags>
   </entry>
   <entry>
+    <title>Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications</title>
+    <url>/2014/07/19/11.Prognostics%20and%20health%20management%20design%20for%20rotary%20machinery%20systems%E2%80%94Reviews,%20methodology%20and%20applications/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Lee, J., Wu, F., Zhao, W., Ghaffari, M., Liao, L., &amp; Siegel, D</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Much research has been conducted in prognostics and health management (PHM), an emerging field in mechanical engineering that is gaining interest from both academia and industry. Most of these efforts have been in the area of machinery PHM, resulting in the development of many algorithms for this particular application. The majority of these algorithms concentrate on applications involving common rotary machinery components, such as bearings and gears. Knowledge of this prior work is a necessity for any future research efforts to be conducted; however, there has not been a comprehensive overview that details previous and on-going efforts in PHM. In addition, a systematic method for developing and deploying a PHM system has yet to be established. Such a method would enable rapid customization and integration of PHM systems for diverse applications. To address these gaps, this paper provides a comprehensive review of the PHM field, followed by an introduction of a systematic PHM design methodology, 5S methodology, for converting data to prognostics information. This methodology includes procedures for identifying critical components, as well as tools for selecting the most appropriate algorithms for specific applications. Visualization tools are presented for displaying prognostics information in an appropriate fashion for quick and accurate decision making. Industrial case studies are included in this paper to show how this methodology can help in the design of an effective PHM system.</p>
+<p><strong>Keywords</strong>：Diagnostics; Prognostics and health management (PHM); Condition based maintenance; Reliability centered maintenance</p>
+<p><img src="/image/fig/11.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0888327013002860">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Review</category>
+      </categories>
+      <tags>
+        <tag>Machine-Tool</tag>
+        <tag>Hybrid</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Fault Diagnosis Method Based on Principal Component Analysis and Broad Learning System</title>
+    <url>/2019/07/19/109.Fault%20Diagnosis%20Method%20Based%20on%20Principal%20Component%20Analysis%20and%20Broad%20Learning%20System/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Zhao, H., Zheng, J., Xu, J., &amp; Deng, W.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Traditional feature extraction methods are used to extract the features of signal to construct the fault feature matrix, which exists the complex structure, higher correlation, and redundancy. This will increase the complex fault classification and seriously affect the accuracy and efficiency of fault identification. In order to solve these problems, a new fault diagnosis (PABSFD) method based on the principal component analysis (PCA) and the broad learning system (BLS) is proposed for rotor system in this paper. In the proposed PABSFD method, the PCA with revealing the signal essence is used to reduce the dimension of the constructed feature matrix and decrease the linear feature correlation between data and eliminate the redundant attributes in order to obtain the low-dimensional feature matrix with retaining the essential features for the classification model. Then, the BLS with low time complexity and high classification accuracy is regarded as a classification model to realize the fault identification; it can efficiently accomplish the fault classification of rotor system. Finally, the actual vibration data of rotor system are selected to test and verify the effectiveness of the PABSFD method. The experimental results show that the PCA method can effectively eliminate the feature correlation and realize the dimension reduction of the feature matrix, the BLS can take on better adaptability, faster computation speed, and higher classification accuracy, and the PABSFD method can efficiently and accurately obtain the fault diagnosis results.</p>
+<p><strong>Keywords</strong>：Rotor system; fault diagnosis; principal component analysis (PCA); broad learning system (BLS); dimension reduction</p>
+<p><img src="/image/fig/109.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://ieeexplore.ieee.org/abstract/document/8764347">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Principal-Component-Analysis</tag>
+        <tag>Motor</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Deep learning fault diagnosis method based on global optimization GAN for unbalanced data</title>
     <url>/2020/05/19/110.Deep%20learning%20fault%20diagnosis%20method%20based%20on%20global%20optimization%20GAN%20for%20unbalanced%20data/</url>
     <content><![CDATA[<p><strong>Author</strong>：Zhou, F., Yang, S., Fujita, H., Chen, D., &amp; Wen, C.</p>
@@ -252,25 +271,6 @@
         <tag>Bearing</tag>
         <tag>Knowledge-Based-Systems</tag>
         <tag>Generative-Adversarial-Network</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Prognostics and health management design for rotary machinery systems—Reviews, methodology and applications</title>
-    <url>/2014/07/19/11.Prognostics%20and%20health%20management%20design%20for%20rotary%20machinery%20systems%E2%80%94Reviews,%20methodology%20and%20applications/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Lee, J., Wu, F., Zhao, W., Ghaffari, M., Liao, L., &amp; Siegel, D</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Much research has been conducted in prognostics and health management (PHM), an emerging field in mechanical engineering that is gaining interest from both academia and industry. Most of these efforts have been in the area of machinery PHM, resulting in the development of many algorithms for this particular application. The majority of these algorithms concentrate on applications involving common rotary machinery components, such as bearings and gears. Knowledge of this prior work is a necessity for any future research efforts to be conducted; however, there has not been a comprehensive overview that details previous and on-going efforts in PHM. In addition, a systematic method for developing and deploying a PHM system has yet to be established. Such a method would enable rapid customization and integration of PHM systems for diverse applications. To address these gaps, this paper provides a comprehensive review of the PHM field, followed by an introduction of a systematic PHM design methodology, 5S methodology, for converting data to prognostics information. This methodology includes procedures for identifying critical components, as well as tools for selecting the most appropriate algorithms for specific applications. Visualization tools are presented for displaying prognostics information in an appropriate fashion for quick and accurate decision making. Industrial case studies are included in this paper to show how this methodology can help in the design of an effective PHM system.</p>
-<p><strong>Keywords</strong>：Diagnostics; Prognostics and health management (PHM); Condition based maintenance; Reliability centered maintenance</p>
-<p><img src="/image/fig/11.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0888327013002860">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Review</category>
-      </categories>
-      <tags>
-        <tag>Hybrid</tag>
-        <tag>Machine-Tool</tag>
       </tags>
   </entry>
   <entry>
@@ -313,25 +313,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Long Short-Term Memory Network for Remaining Useful Life Estimation</title>
-    <url>/2017/07/19/114.Long%20Short-Term%20Memory%20Network%20for%20Remaining%20Useful%20Life%20Estimation/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Zheng, S., Ristovski, K., Farahat, A., &amp; Gupta, C.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Remaining Useful Life (RUL) of a component or a system is defined as the length from the current time to the end of the useful life. Accurate RUL estimation plays a critical role in Prognostics and Health Management (PHM). Data driven approaches for RUL estimation use sensor data and operational data to estimate RUL. Traditional regression-based approaches and recent Convolutional Neural Network (CNN) approach use features created from sliding windows to build models. However, sequence information is not fully considered in these approaches. Sequence learning models such as Hidden Markov Models (HMMs) and Recurrent Neural Networks (RNNs) have flaws when modeling sequence information. HMMs  are limited to discrete hidden states and are known to have issues when modeling long-term dependencies in the data. RNNs also have issues with long-term dependencies. In this work, we propose a Long Short-Term Memory (LSTM) approach for RUL estimation, which can make full use of the sensor sequence information and expose hidden patterns within sensor data with multiple operating conditions, fault and degradation models. Extensive experiments using three widely adopted Prognostics and Health Management data sets show that LSTM for RUL estimation significantly outperforms traditional approaches for RUL estimation as well as Convolutional Neural Network (CNN).</p>
-<p><strong>Keywords</strong>：Hidden Markov models, Estimation, Data models, Logic gates, Recurrent neural networks, Prognostics and health management</p>
-<p><img src="/image/fig/114.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7998311">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Long-Short-Term-Memory-Neural-Network</tag>
-        <tag>Engine</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Estimation of Bearing Remaining Useful Life Based on Multiscale Convolutional Neural Network</title>
     <url>/2018/07/19/113.Estimation%20of%20Bearing%20Remaining%20Useful%20Life%20Based%20on%20Multiscale%20Convolutional%20Neural%20Network/</url>
     <content><![CDATA[<p><strong>Author</strong>：Zhu, J., Chen, N., &amp; Peng, W.</p>
@@ -368,6 +349,25 @@
         <tag>Bearing</tag>
         <tag>Mechanical-Systems-And-Signal-Processing</tag>
         <tag>Extreme-Learning-Machine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Long Short-Term Memory Network for Remaining Useful Life Estimation</title>
+    <url>/2017/07/19/114.Long%20Short-Term%20Memory%20Network%20for%20Remaining%20Useful%20Life%20Estimation/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Zheng, S., Ristovski, K., Farahat, A., &amp; Gupta, C.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Remaining Useful Life (RUL) of a component or a system is defined as the length from the current time to the end of the useful life. Accurate RUL estimation plays a critical role in Prognostics and Health Management (PHM). Data driven approaches for RUL estimation use sensor data and operational data to estimate RUL. Traditional regression-based approaches and recent Convolutional Neural Network (CNN) approach use features created from sliding windows to build models. However, sequence information is not fully considered in these approaches. Sequence learning models such as Hidden Markov Models (HMMs) and Recurrent Neural Networks (RNNs) have flaws when modeling sequence information. HMMs  are limited to discrete hidden states and are known to have issues when modeling long-term dependencies in the data. RNNs also have issues with long-term dependencies. In this work, we propose a Long Short-Term Memory (LSTM) approach for RUL estimation, which can make full use of the sensor sequence information and expose hidden patterns within sensor data with multiple operating conditions, fault and degradation models. Extensive experiments using three widely adopted Prognostics and Health Management data sets show that LSTM for RUL estimation significantly outperforms traditional approaches for RUL estimation as well as Convolutional Neural Network (CNN).</p>
+<p><strong>Keywords</strong>：Hidden Markov models, Estimation, Data models, Logic gates, Recurrent neural networks, Prognostics and health management</p>
+<p><img src="/image/fig/114.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7998311">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Long-Short-Term-Memory-Neural-Network</tag>
+        <tag>Engine</tag>
       </tags>
   </entry>
   <entry>
@@ -524,6 +524,24 @@
       </tags>
   </entry>
   <entry>
+    <title>Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis</title>
+    <url>/2003/07/19/19.Pipe%20system%20diagnosis%20and%20leak%20detection%20by%20unsteady-state%20tests.%202.%20Wavelet%20analysis/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Ferrante, M., &amp; Brunone, B</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>As shown in Part 1, the analysis of a pressure signal in the frequency domain can give items of information for leak detection even though, moving from time to frequency domain, interesting information about the arrival time of pressure waves are lost. To overcome this limitation and to widen the applicability of transient-test based methodologies for leak detection, the wavelet transform of laboratory experimental data is used. Such data consist of pressure time histories acquired at one measurement section during transients in a single pipe system. The wavelet transform is used to detect local singularities in the pressure time history due to the presence of a leak. The discontinuity occurrence in time reveals the arrival time of the leak reflected pressure wave and is the basis for leak location.</p>
+<p><strong>Keywords</strong>：<br><img src="/image/fig/19.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S221384631400025X">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Signal-Processing</tag>
+        <tag>Water-Pipe</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Pipe system diagnosis and leak detection by unsteady-state tests. 1. Harmonic analysis</title>
     <url>/2003/07/19/18.Pipe%20system%20diagnosis%20and%20leak%20detection%20by%20unsteady-state%20tests.%201.%20Harmonic%20analysis/</url>
     <content><![CDATA[<p><strong>Author</strong>：MarcoFerrante，BrunoBrunone</p>
@@ -543,21 +561,21 @@
       </tags>
   </entry>
   <entry>
-    <title>Pipe system diagnosis and leak detection by unsteady-state tests. 2. Wavelet analysis</title>
-    <url>/2003/07/19/19.Pipe%20system%20diagnosis%20and%20leak%20detection%20by%20unsteady-state%20tests.%202.%20Wavelet%20analysis/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Ferrante, M., &amp; Brunone, B</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>As shown in Part 1, the analysis of a pressure signal in the frequency domain can give items of information for leak detection even though, moving from time to frequency domain, interesting information about the arrival time of pressure waves are lost. To overcome this limitation and to widen the applicability of transient-test based methodologies for leak detection, the wavelet transform of laboratory experimental data is used. Such data consist of pressure time histories acquired at one measurement section during transients in a single pipe system. The wavelet transform is used to detect local singularities in the pressure time history due to the presence of a leak. The discontinuity occurrence in time reveals the arrival time of the leak reflected pressure wave and is the basis for leak location.</p>
-<p><strong>Keywords</strong>：<br><img src="/image/fig/19.jpg" alt="jpg"></p>
+    <title>An industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities</title>
+    <url>/2015/08/17/2.An%20industrial%20big%20data%20pipeline%20for%20data-driven%20analytics%20maintenance%20applications/</url>
+    <content><![CDATA[<p><strong>Author</strong>：P. O’Donovan, K. Leahy, K. Bruton &amp; D. T. J. O’Sullivan</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>The term smart manufacturing refers to a future-state of manufacturing, where the real-time transmission and analysis of data from across the factory creates manufacturing intelligence, which can be used to have a positive impact across all aspects of operations. In recent years, many initiatives and groups have been formed to advance smart manufacturing, with the most prominent being the Smart Manufacturing Leadership Coalition (SMLC), Industry 4.0, and the Industrial Internet Consortium. These initiatives comprise industry, academic and government partners, and contribute to the development of strategic policies, guidelines, and roadmaps relating to smart manufacturing adoption. In turn, many of these recommendations may be implemented using data-centric technologies, such as Big Data, Machine Learning, Simulation, Internet of Things and Cyber Physical Systems, to realize smart operations in the factory. Given the importance of machine uptime and availability in smart manufacturing, this research centers on the application of data-driven analytics to industrial equipment maintenance. The main contributions of this research are a set of data and system requirements for implementing equipment maintenance applications in industrial environments, and an information system model that provides a scalable and fault tolerant big data pipeline for integrating, processing and analyzing industrial equipment data. These contributions are considered in the context of highly regulated large-scale manufacturing environments, where legacy (e.g. automation controllers) and emerging instrumentation (e.g. internet-aware smart sensors) must be supported to facilitate initial smart manufacturing efforts. </p>
+<p><img src="/image/fig/2.gif" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S221384631400025X">click here to view full article</a></p>
+<p><a href="https://journalofbigdata.springeropen.com/articles/10.1186/s40537-015-0034-z#Abs1">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>Fault_Diagnosis</category>
+        <category>Survey</category>
       </categories>
       <tags>
-        <tag>Signal-Processing</tag>
-        <tag>Water-Pipe</tag>
+        <tag>Data-Flow-Processing</tag>
+        <tag>Workshop</tag>
       </tags>
   </entry>
   <entry>
@@ -596,24 +614,6 @@
       <tags>
         <tag>Machine-Tool</tag>
         <tag>Signal-Processing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>An industrial big data pipeline for data-driven analytics maintenance applications in large-scale smart manufacturing facilities</title>
-    <url>/2015/08/17/2.An%20industrial%20big%20data%20pipeline%20for%20data-driven%20analytics%20maintenance%20applications/</url>
-    <content><![CDATA[<p><strong>Author</strong>：P. O’Donovan, K. Leahy, K. Bruton &amp; D. T. J. O’Sullivan</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>The term smart manufacturing refers to a future-state of manufacturing, where the real-time transmission and analysis of data from across the factory creates manufacturing intelligence, which can be used to have a positive impact across all aspects of operations. In recent years, many initiatives and groups have been formed to advance smart manufacturing, with the most prominent being the Smart Manufacturing Leadership Coalition (SMLC), Industry 4.0, and the Industrial Internet Consortium. These initiatives comprise industry, academic and government partners, and contribute to the development of strategic policies, guidelines, and roadmaps relating to smart manufacturing adoption. In turn, many of these recommendations may be implemented using data-centric technologies, such as Big Data, Machine Learning, Simulation, Internet of Things and Cyber Physical Systems, to realize smart operations in the factory. Given the importance of machine uptime and availability in smart manufacturing, this research centers on the application of data-driven analytics to industrial equipment maintenance. The main contributions of this research are a set of data and system requirements for implementing equipment maintenance applications in industrial environments, and an information system model that provides a scalable and fault tolerant big data pipeline for integrating, processing and analyzing industrial equipment data. These contributions are considered in the context of highly regulated large-scale manufacturing environments, where legacy (e.g. automation controllers) and emerging instrumentation (e.g. internet-aware smart sensors) must be supported to facilitate initial smart manufacturing efforts. </p>
-<p><img src="/image/fig/2.gif" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://journalofbigdata.springeropen.com/articles/10.1186/s40537-015-0034-z#Abs1">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Survey</category>
-      </categories>
-      <tags>
-        <tag>Data-Flow-Processing</tag>
-        <tag>Workshop</tag>
       </tags>
   </entry>
   <entry>
@@ -733,6 +733,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network</title>
+    <url>/2015/07/19/29.Bearing%20fault%20diagnosis%20method%20based%20on%20Hilbert%20envelope%20spectrum%20and%20deep%20belief%20network/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Wang, X., Li, Y., Rui, T., Zhu, H., &amp; Fei, J.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>When fault occurs in bearing, the frequency spectrum of vibration signal would change and it contains a considerable amount of fault information which can reflect the actual work condition and the fault type of bearing. Recently, the statistical features of the frequency spectrum have been widely used in bearing fault diagnosis. However, there are lots of statistical features with different sensitivity to fault identification. Selecting the most sensible statistical features for improving classification accuracy is often determined with experience, which will make great subjective influence on the fault diagnosis results. Deep belief network (DBN) is a deep neural network which can automatically find a latent hierarchical feature representation from the high dimension input data. In this study, a bearing fault diagnosis method based on Hilbert envelope spectrum and DBN is proposed. Firstly, the vibration signals under different test conditions are resampled. Secondly, the whole Hilbert envelope spectrum of the resampled signal is used directly as eigenvector to characterize the fault type of bearing. Finally, a DBN classifier model is established to recognize the fault type of bearing. DBN classifier model can be used as both an automatic feature extractor and a classifier for bearing fault diagnosis. Therefore, the process of fault diagnosis can be greatly simplified. The results of two different experiments demonstrate that the proposed method outperforms the competing methods and it can obtain a more excellent diagnostic performance. </p>
+<p><strong>Keywords</strong>：bearing fault diagnosis, statistical feature, Hilbert envelope spectrum, deep belief network.</p>
+<p><img src="/image/fig/29.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.jvejournals.com/article/15816">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Bearing</tag>
+        <tag>Deep-Belief-Networks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>An approach to fault diagnosis of reciprocating compressor valves using Teager–Kaiser energy operator and deep belief networks</title>
     <url>/2013/07/19/28.An%20approach%20to%20fault%20diagnosis%20of%20reciprocating%20compressor%20valves%20using%20Teager%E2%80%93Kaiser%20energy%20operator%20and%20deep%20belief%20networks/</url>
     <content><![CDATA[<p><strong>Author</strong>：AlThobiani, F., &amp; Ball, A</p>
@@ -768,25 +787,6 @@
         <tag>Machine-Tool</tag>
         <tag>Signal-Processing</tag>
         <tag>Model-Based-Reasoning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Bearing fault diagnosis method based on Hilbert envelope spectrum and deep belief network</title>
-    <url>/2015/07/19/29.Bearing%20fault%20diagnosis%20method%20based%20on%20Hilbert%20envelope%20spectrum%20and%20deep%20belief%20network/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Wang, X., Li, Y., Rui, T., Zhu, H., &amp; Fei, J.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>When fault occurs in bearing, the frequency spectrum of vibration signal would change and it contains a considerable amount of fault information which can reflect the actual work condition and the fault type of bearing. Recently, the statistical features of the frequency spectrum have been widely used in bearing fault diagnosis. However, there are lots of statistical features with different sensitivity to fault identification. Selecting the most sensible statistical features for improving classification accuracy is often determined with experience, which will make great subjective influence on the fault diagnosis results. Deep belief network (DBN) is a deep neural network which can automatically find a latent hierarchical feature representation from the high dimension input data. In this study, a bearing fault diagnosis method based on Hilbert envelope spectrum and DBN is proposed. Firstly, the vibration signals under different test conditions are resampled. Secondly, the whole Hilbert envelope spectrum of the resampled signal is used directly as eigenvector to characterize the fault type of bearing. Finally, a DBN classifier model is established to recognize the fault type of bearing. DBN classifier model can be used as both an automatic feature extractor and a classifier for bearing fault diagnosis. Therefore, the process of fault diagnosis can be greatly simplified. The results of two different experiments demonstrate that the proposed method outperforms the competing methods and it can obtain a more excellent diagnostic performance. </p>
-<p><strong>Keywords</strong>：bearing fault diagnosis, statistical feature, Hilbert envelope spectrum, deep belief network.</p>
-<p><img src="/image/fig/29.jpg" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.jvejournals.com/article/15816">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Bearing</tag>
-        <tag>Deep-Belief-Networks</tag>
       </tags>
   </entry>
   <entry>
@@ -887,22 +887,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion</title>
-    <url>/2016/07/19/36.Bearing%20Fault%20Diagnosis%20Based%20on%20Deep%20Belief%20Network%20and%20Multisensor%20Information%20Fusion/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Tao, J., Liu, Y., &amp; Yang, D</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In the rolling bearing fault diagnosis, the vibration signal of single sensor is usually nonstationary and noisy, which contains very little useful information, and impacts the accuracy of fault diagnosis. In order to solve the problem, this paper presents a novel fault diagnosis method using multivibration signals and deep belief network (DBN). By utilizing the DBN’s learning ability, the proposed method can adaptively fuse multifeature data and identify various bearing faults. Firstly, multiple vibration signals are acquainted from various fault bearings. Secondly, some time-domain characteristics are extracted from original signals of each individual sensor. Finally, the features data of all sensors are put into the DBN and generate an appropriate classifier to complete fault diagnosis. In order to demonstrate the effectiveness of multivibration signals, experiments are carried out on the individual sensor with the same conditions and procedure. At the same time, the method is compared with SVM, KNN, and BPNN methods. The results show that the DBN-based method is able to not only adaptively fuse multisensor data, but also obtain higher identification accuracy than other methods. </p>
-<p><strong>Keywords</strong>：</p>
-<p><img src="/image/fig/36.png" alt="jpg"></p>
+    <title>Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning</title>
+    <url>/2016/07/19/37.Fault%20diagnosis%20for%20rotating%20machinery%20using%20vibration%20measurement%20deep%20statistical%20feature%20learning/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Li, C., Sánchez, R. V., Zurita, G., Cerrada, M., &amp; Cabrera, D.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Fault diagnosis is important for the maintenance of rotating machinery. The detection of faults and fault patterns is a challenging part of machinery fault diagnosis. To tackle this problem, a model for deep statistical feature learning from vibration measurements of rotating machinery is presented in this paper. Vibration sensor signals collected from rotating mechanical systems are represented in the time, frequency, and time-frequency domains, each of which is then used to produce a statistical feature set. For learning statistical features, real-value Gaussian-Bernoulli restricted Boltzmann machines (GRBMs) are stacked to develop a Gaussian-Bernoulli deep Boltzmann machine (GDBM). The suggested approach is applied as a deep statistical feature learning tool for both gearbox and bearing systems. The fault classification performances in experiments using this approach are 95.17% for the gearbox, and 91.75% for the bearing system. The proposed approach is compared to such standard methods as a support vector machine, GRBM and a combination model. In experiments, the best fault classification rate was detected using the proposed model. The results show that deep learning with statistical feature extraction has an essential improvement potential for diagnosing rotating machinery faults.</p>
+<p><strong>Keywords</strong>：fault diagnosis; deep learning; statistical feature; vibration sensor; rotating machinery</p>
+<p><img src="/image/fig/37.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.hindawi.com/journals/sv/2016/9306205/">click here to view full article</a></p>
+<p><a href="https://www.mdpi.com/1424-8220/16/6/895">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
         <category>Fault_Diagnosis</category>
       </categories>
       <tags>
-        <tag>Bearing</tag>
-        <tag>Deep-Belief-Networks</tag>
+        <tag>Gearbox</tag>
+        <tag>Boltzmann-Machine</tag>
       </tags>
   </entry>
   <entry>
@@ -925,25 +925,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Fault diagnosis for rotating machinery using vibration measurement deep statistical feature learning</title>
-    <url>/2016/07/19/37.Fault%20diagnosis%20for%20rotating%20machinery%20using%20vibration%20measurement%20deep%20statistical%20feature%20learning/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Li, C., Sánchez, R. V., Zurita, G., Cerrada, M., &amp; Cabrera, D.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Fault diagnosis is important for the maintenance of rotating machinery. The detection of faults and fault patterns is a challenging part of machinery fault diagnosis. To tackle this problem, a model for deep statistical feature learning from vibration measurements of rotating machinery is presented in this paper. Vibration sensor signals collected from rotating mechanical systems are represented in the time, frequency, and time-frequency domains, each of which is then used to produce a statistical feature set. For learning statistical features, real-value Gaussian-Bernoulli restricted Boltzmann machines (GRBMs) are stacked to develop a Gaussian-Bernoulli deep Boltzmann machine (GDBM). The suggested approach is applied as a deep statistical feature learning tool for both gearbox and bearing systems. The fault classification performances in experiments using this approach are 95.17% for the gearbox, and 91.75% for the bearing system. The proposed approach is compared to such standard methods as a support vector machine, GRBM and a combination model. In experiments, the best fault classification rate was detected using the proposed model. The results show that deep learning with statistical feature extraction has an essential improvement potential for diagnosing rotating machinery faults.</p>
-<p><strong>Keywords</strong>：fault diagnosis; deep learning; statistical feature; vibration sensor; rotating machinery</p>
-<p><img src="/image/fig/37.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.mdpi.com/1424-8220/16/6/895">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Gearbox</tag>
-        <tag>Boltzmann-Machine</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Gearbox fault identification and classification with convolutional neural networks</title>
     <url>/2015/07/19/38.Gearbox%20fault%20identification%20and%20classification%20with%20convolutional%20neural%20networks/</url>
     <content><![CDATA[<p><strong>Author</strong>：Chen, Z., Li, C., &amp; Sanchez, R. V.</p>
@@ -963,22 +944,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Convolutional Neural Network Based Fault Detection for Rotating Machinery</title>
-    <url>/2016/07/19/39.Convolutional%20Neural%20Network%20Based%20Fault%20Detection%20for%20Rotating%20Machinery/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Janssens, O., Slavkovikj, V., Vervisch, B., Stockman, K., Loccufier, M., Verstockt, S., &amp; Van Hoecke, S</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Vibration signals of gearbox are sensitive to the existence of the fault. Based on vibration signals, this paper presents an implementation of deep learning algorithm convolutional neural network (CNN) used for fault identification and classification in gearboxes. Different combinations of condition patterns based on some basic fault conditions are considered. 20 test cases with different combinations of condition patterns are used, where each test case includes 12 combinations of different basic condition patterns. Vibration signals are preprocessed using statistical measures from the time domain signal such as standard deviation, skewness, and kurtosis. In the frequency domain, the spectrum obtained with FFT is divided into multiple bands, and the root mean square (RMS) value is calculated for each one so the energy maintains its shape at the spectrum peaks. The achieved accuracy indicates that the proposed approach is highly reliable and applicable in fault diagnosis of industrial reciprocating machinery. Comparing with peer algorithms, the present method exhibits the best performance in the gearbox fault diagnosis. </p>
-<p><strong>Keywords</strong>：Condition monitoring; Fault detection; Vibration analysis; Machine learning; Convolutional neural network; Feature learning</p>
-<p><img src="/image/fig/39.jpg" alt="jpg"></p>
+    <title>Bearing Fault Diagnosis Based on Deep Belief Network and Multisensor Information Fusion</title>
+    <url>/2016/07/19/36.Bearing%20Fault%20Diagnosis%20Based%20on%20Deep%20Belief%20Network%20and%20Multisensor%20Information%20Fusion/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Tao, J., Liu, Y., &amp; Yang, D</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In the rolling bearing fault diagnosis, the vibration signal of single sensor is usually nonstationary and noisy, which contains very little useful information, and impacts the accuracy of fault diagnosis. In order to solve the problem, this paper presents a novel fault diagnosis method using multivibration signals and deep belief network (DBN). By utilizing the DBN’s learning ability, the proposed method can adaptively fuse multifeature data and identify various bearing faults. Firstly, multiple vibration signals are acquainted from various fault bearings. Secondly, some time-domain characteristics are extracted from original signals of each individual sensor. Finally, the features data of all sensors are put into the DBN and generate an appropriate classifier to complete fault diagnosis. In order to demonstrate the effectiveness of multivibration signals, experiments are carried out on the individual sensor with the same conditions and procedure. At the same time, the method is compared with SVM, KNN, and BPNN methods. The results show that the DBN-based method is able to not only adaptively fuse multisensor data, but also obtain higher identification accuracy than other methods. </p>
+<p><strong>Keywords</strong>：</p>
+<p><img src="/image/fig/36.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0022460X16301638">click here to view full article</a></p>
+<p><a href="https://www.hindawi.com/journals/sv/2016/9306205/">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
         <category>Fault_Diagnosis</category>
       </categories>
       <tags>
-        <tag>Gearbox</tag>
-        <tag>Convolutional-Neural-Networks</tag>
+        <tag>Bearing</tag>
+        <tag>Deep-Belief-Networks</tag>
       </tags>
   </entry>
   <entry>
@@ -1000,6 +981,25 @@
         <tag>Engine</tag>
         <tag>Signal-Processing</tag>
         <tag>Clustering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Convolutional Neural Network Based Fault Detection for Rotating Machinery</title>
+    <url>/2016/07/19/39.Convolutional%20Neural%20Network%20Based%20Fault%20Detection%20for%20Rotating%20Machinery/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Janssens, O., Slavkovikj, V., Vervisch, B., Stockman, K., Loccufier, M., Verstockt, S., &amp; Van Hoecke, S</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Vibration signals of gearbox are sensitive to the existence of the fault. Based on vibration signals, this paper presents an implementation of deep learning algorithm convolutional neural network (CNN) used for fault identification and classification in gearboxes. Different combinations of condition patterns based on some basic fault conditions are considered. 20 test cases with different combinations of condition patterns are used, where each test case includes 12 combinations of different basic condition patterns. Vibration signals are preprocessed using statistical measures from the time domain signal such as standard deviation, skewness, and kurtosis. In the frequency domain, the spectrum obtained with FFT is divided into multiple bands, and the root mean square (RMS) value is calculated for each one so the energy maintains its shape at the spectrum peaks. The achieved accuracy indicates that the proposed approach is highly reliable and applicable in fault diagnosis of industrial reciprocating machinery. Comparing with peer algorithms, the present method exhibits the best performance in the gearbox fault diagnosis. </p>
+<p><strong>Keywords</strong>：Condition monitoring; Fault detection; Vibration analysis; Machine learning; Convolutional neural network; Feature learning</p>
+<p><img src="/image/fig/39.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0022460X16301638">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Gearbox</tag>
+        <tag>Convolutional-Neural-Networks</tag>
       </tags>
   </entry>
   <entry>
@@ -1037,25 +1037,6 @@
       </categories>
       <tags>
         <tag>Bearing</tag>
-        <tag>Convolutional-Neural-Networks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Automatic multi-fault recognition in TFDS based on convolutional neural network</title>
-    <url>/2017/07/19/43.Automatic%20multi-fault%20recognition%20in%20TFDS%20based%20on%20convolutional%20neural%20network/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Sun, J., Xiao, Z., &amp; Xie, Y.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In recent years, more than 300 sets of Trouble of Running Freight Train Detection Systems (TFDSs) have been installed on railway to monitor the safety of running freight trains in China. However, TFDS is simply responsible for capturing, transmitting, and storing images, and fails to recognize faults automatically. Motivated by the success of convolutional neural networks (CNNs) in the tasks of image recognition, this paper makes essential use of CNN models and proposes an automatic fault recognition system (AFRS) for recognizing four typical faults in TFDS simultaneously. AFRS is a two-stage system: In the first stage, a coarse-to-fine scheme based on CNN model is adopted to detect the target regions of side frame keys (SFKs) and shaft bolts (SBs) simultaneously. In the second stage, we establish another CNN model for multi-fault determination to recognize four typical faults emerged in the target regions of SFKs and SBs. The experimental results show that this system has an excellent performance of multi-fault recognition in TFDS. High recognition accuracy rates, low false ratios and low omission ratios are obtained for all the four typical faults, demonstrating the high recognition ability and robustness against various low-quality imaging situations.</p>
-<p><strong>Keywords</strong>：Freight train faults; Multi-fault recognition; Image recognition; Convolutional neural network; Region detection</p>
-<p><img src="/image/fig/43.jpg" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0925231216311808">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Railway</tag>
         <tag>Convolutional-Neural-Networks</tag>
       </tags>
   </entry>
@@ -1098,6 +1079,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Automatic multi-fault recognition in TFDS based on convolutional neural network</title>
+    <url>/2017/07/19/43.Automatic%20multi-fault%20recognition%20in%20TFDS%20based%20on%20convolutional%20neural%20network/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Sun, J., Xiao, Z., &amp; Xie, Y.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In recent years, more than 300 sets of Trouble of Running Freight Train Detection Systems (TFDSs) have been installed on railway to monitor the safety of running freight trains in China. However, TFDS is simply responsible for capturing, transmitting, and storing images, and fails to recognize faults automatically. Motivated by the success of convolutional neural networks (CNNs) in the tasks of image recognition, this paper makes essential use of CNN models and proposes an automatic fault recognition system (AFRS) for recognizing four typical faults in TFDS simultaneously. AFRS is a two-stage system: In the first stage, a coarse-to-fine scheme based on CNN model is adopted to detect the target regions of side frame keys (SFKs) and shaft bolts (SBs) simultaneously. In the second stage, we establish another CNN model for multi-fault determination to recognize four typical faults emerged in the target regions of SFKs and SBs. The experimental results show that this system has an excellent performance of multi-fault recognition in TFDS. High recognition accuracy rates, low false ratios and low omission ratios are obtained for all the four typical faults, demonstrating the high recognition ability and robustness against various low-quality imaging situations.</p>
+<p><strong>Keywords</strong>：Freight train faults; Multi-fault recognition; Image recognition; Convolutional neural network; Region detection</p>
+<p><img src="/image/fig/43.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0925231216311808">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Railway</tag>
+        <tag>Convolutional-Neural-Networks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Recurrent fuzzy neural cerebellar model articulation network fault-tolerant control of six-phase permanent magnet synchronous motor position servo drive</title>
     <url>/2016/07/19/45.Recurrent%20fuzzy%20neural%20cerebellar%20model%20articulation%20network%20fault-tolerant%20control%20of%20six-phase%20permanent%20magnet%20synchronous%20motor%20position%20servo%20drive/</url>
     <content><![CDATA[<p><strong>Author</strong>：Lin, F. J., Sun, I. F., Yang, K. J., &amp; Chang, J. K.</p>
@@ -1136,6 +1136,26 @@
       </tags>
   </entry>
   <entry>
+    <title>An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines</title>
+    <url>/2016/07/19/47.An%20ensemble%20of%20dynamic%20neural%20network%20identifiers%20for%20fault%20detection%20and%20isolation%20of%20gas%20turbine%20engines/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Amozegar, M., &amp; Khorasani, K.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In this paper, a new approach for Fault Detection and Isolation (FDI) of gas turbine engines is proposed by developing an ensemble of dynamic neural network identifiers. For health monitoring of the gas turbine engine, its dynamics is first identified by constructing three separate or individual dynamic neural network architectures. Specifically, a dynamic multi-layer perceptron (MLP), a dynamic radial-basis function (RBF) neural network, and a dynamic support vector machine (SVM) are trained to individually identify and represent the gas turbine engine dynamics. Next, three ensemble-based techniques are developed to represent the gas turbine engine dynamics, namely, two heterogeneous ensemble models and one homogeneous ensemble model. It is first shown that all ensemble approaches do significantly improve the overall performance and accuracy of the developed system identification scheme when compared to each of the stand-alone solutions. The best selected stand-alone model (i.e., the dynamic RBF network) and the best selected ensemble architecture (i.e., the heterogeneous ensemble) in terms of their performances in achieving an accurate system identification are then selected for solving the FDI task. The required residual signals are generated by using both a single model-based solution and an ensemble-based solution under various gas turbine engine health conditions. Our extensive simulation studies demonstrate that the fault detection and isolation task achieved by using the residuals that are obtained from the dynamic ensemble scheme results in a significantly more accurate and reliable performance as illustrated through detailed quantitative confusion matrix analysis and comparative studies.  </p>
+<p><strong>Keywords</strong>：Ensemble learning; Fault detection and isolation; System identification; Dynamic neural networks; Gas turbine engines</p>
+<p><img src="/image/fig/47.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0893608016000046">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Engine</tag>
+        <tag>Support-Vector-Machine</tag>
+        <tag>Neural-Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Neural network-based robust actuator fault diagnosis for a non-linear multi-tank system</title>
     <url>/2016/07/19/48.Neural%20network-based%20robust%20actuator%20fault%20diagnosis%20for%20a%20non-linear%20multi-tank%20system/</url>
     <content><![CDATA[<p><strong>Author</strong>：Mrugalski, M., Luzar, M., Pazera, M., Witczak, M., &amp; Aubrun, C</p>
@@ -1152,25 +1172,6 @@
       <tags>
         <tag>Workshop</tag>
         <tag>Neural-Network</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Estimation of failure probability of milk manufacturing unit by fuzzy fault tree analysis</title>
-    <url>/2014/07/19/5.Estimation%20of%20failure%20probability%20of%20milk%20manufacturing%20unit%20by%20fuzzy%20fault%20tree%20analysis/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Mhalla, A., Collart Dutilleul, S., Craye, E., &amp; Benrejeb</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In conventional fault tree analysis, probabilities of the basic events were treated as precise values; sometimes this probability does not correspond to real situations of systems because of ambiguity and the imprecision of some basic events. In order to overcome this disadvantage, a new fuzzy probabilistic method, based on the fuzzy set theory and the Buckley approach, is used in the fault tree analysis for quantifying the basic event uncertainty. According to failure modes, a fault tree of a milk manufacturing unit is constructed. Failure in the milk manufacturing workshop is analysed using the proposed method.</p>
-<p><strong>Keywords</strong>：Failure rates, fuzzy probabilities, milk production unit, fault tree, uncertainty, diagnosis, maximum time constraints<br><img src="/image/fig/1.jpg" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs764">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Fuzzy-Theory</tag>
-        <tag>Workshop</tag>
-        <tag>Fault-Tree-Analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -1193,6 +1194,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Estimation of failure probability of milk manufacturing unit by fuzzy fault tree analysis</title>
+    <url>/2014/07/19/5.Estimation%20of%20failure%20probability%20of%20milk%20manufacturing%20unit%20by%20fuzzy%20fault%20tree%20analysis/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Mhalla, A., Collart Dutilleul, S., Craye, E., &amp; Benrejeb</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In conventional fault tree analysis, probabilities of the basic events were treated as precise values; sometimes this probability does not correspond to real situations of systems because of ambiguity and the imprecision of some basic events. In order to overcome this disadvantage, a new fuzzy probabilistic method, based on the fuzzy set theory and the Buckley approach, is used in the fault tree analysis for quantifying the basic event uncertainty. According to failure modes, a fault tree of a milk manufacturing unit is constructed. Failure in the milk manufacturing workshop is analysed using the proposed method.</p>
+<p><strong>Keywords</strong>：Failure rates, fuzzy probabilities, milk production unit, fault tree, uncertainty, diagnosis, maximum time constraints<br><img src="/image/fig/1.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs764">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Fuzzy-Theory</tag>
+        <tag>Workshop</tag>
+        <tag>Fault-Tree-Analysis</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Application of a Bank of Kalman Filters for Aircraft Engine Fault Diagnostics</title>
     <url>/2009/07/19/50.Application%20of%20a%20Bank%20of%20Kalman%20Filters%20for%20Aircraft%20Engine%20Fault%20Diagnostics/</url>
     <content><![CDATA[<p><strong>Author</strong>：Kobayashi, T., &amp; Simon, D. L.</p>
@@ -1208,6 +1228,25 @@
       </categories>
       <tags>
         <tag>Engine</tag>
+        <tag>Kalman-Filter</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A New Fault Detection Method of Induction Motor</title>
+    <url>/2010/07/19/51.A%20New%20Fault%20Detection%20Method%20of%20Induction%20Motor/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Wen, C., &amp; Liang, Y.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>According to the shortcoming that the Extended Kalman filter (EKF) method can only estimate the speed and rotor position of induction motors in time domain when it is used to diagnose the fault existed in induction motor. A new multi-scale default diagnosing method is developed by combining EKF and wavelet transform. By monitoring the voltages and currents of the stator, it is possible to estimate the speed and position on-line. The new filter combines the merit of EKF and wavelet, and it not only possesses the multiscale analysis capability both in time domain and frequency domain, but also has better estimation accuracy than traditional EKF. Computer simulation shows the effect of the new algorithm.  </p>
+<p><strong>Keywords</strong>：Induction motor; multi-scale analysis; extended Kalman filter (EKF)</p>
+<p><img src="/image/fig/51.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-642-16527-6_1">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Motor</tag>
         <tag>Kalman-Filter</tag>
       </tags>
   </entry>
@@ -1228,25 +1267,6 @@
       <tags>
         <tag>Motor</tag>
         <tag>Kalman-Filters</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>A New Fault Detection Method of Induction Motor</title>
-    <url>/2010/07/19/51.A%20New%20Fault%20Detection%20Method%20of%20Induction%20Motor/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Wen, C., &amp; Liang, Y.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>According to the shortcoming that the Extended Kalman filter (EKF) method can only estimate the speed and rotor position of induction motors in time domain when it is used to diagnose the fault existed in induction motor. A new multi-scale default diagnosing method is developed by combining EKF and wavelet transform. By monitoring the voltages and currents of the stator, it is possible to estimate the speed and position on-line. The new filter combines the merit of EKF and wavelet, and it not only possesses the multiscale analysis capability both in time domain and frequency domain, but also has better estimation accuracy than traditional EKF. Computer simulation shows the effect of the new algorithm.  </p>
-<p><strong>Keywords</strong>：Induction motor; multi-scale analysis; extended Kalman filter (EKF)</p>
-<p><img src="/image/fig/51.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://link.springer.com/chapter/10.1007/978-3-642-16527-6_1">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Motor</tag>
-        <tag>Kalman-Filter</tag>
       </tags>
   </entry>
   <entry>
@@ -1307,26 +1327,6 @@
       </tags>
   </entry>
   <entry>
-    <title>An ensemble of dynamic neural network identifiers for fault detection and isolation of gas turbine engines</title>
-    <url>/2016/07/19/47.An%20ensemble%20of%20dynamic%20neural%20network%20identifiers%20for%20fault%20detection%20and%20isolation%20of%20gas%20turbine%20engines/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Amozegar, M., &amp; Khorasani, K.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In this paper, a new approach for Fault Detection and Isolation (FDI) of gas turbine engines is proposed by developing an ensemble of dynamic neural network identifiers. For health monitoring of the gas turbine engine, its dynamics is first identified by constructing three separate or individual dynamic neural network architectures. Specifically, a dynamic multi-layer perceptron (MLP), a dynamic radial-basis function (RBF) neural network, and a dynamic support vector machine (SVM) are trained to individually identify and represent the gas turbine engine dynamics. Next, three ensemble-based techniques are developed to represent the gas turbine engine dynamics, namely, two heterogeneous ensemble models and one homogeneous ensemble model. It is first shown that all ensemble approaches do significantly improve the overall performance and accuracy of the developed system identification scheme when compared to each of the stand-alone solutions. The best selected stand-alone model (i.e., the dynamic RBF network) and the best selected ensemble architecture (i.e., the heterogeneous ensemble) in terms of their performances in achieving an accurate system identification are then selected for solving the FDI task. The required residual signals are generated by using both a single model-based solution and an ensemble-based solution under various gas turbine engine health conditions. Our extensive simulation studies demonstrate that the fault detection and isolation task achieved by using the residuals that are obtained from the dynamic ensemble scheme results in a significantly more accurate and reliable performance as illustrated through detailed quantitative confusion matrix analysis and comparative studies.  </p>
-<p><strong>Keywords</strong>：Ensemble learning; Fault detection and isolation; System identification; Dynamic neural networks; Gas turbine engines</p>
-<p><img src="/image/fig/47.jpg" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0893608016000046">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Engine</tag>
-        <tag>Support-Vector-Machine</tag>
-        <tag>Neural-Network</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hidden semi-Markov model based methodology for multi-sensor equipment health diagnosis and prognosis</title>
     <url>/2007/07/19/56.Hidden%20semi-Markov%20model%20based%20methodology%20for%20multi-sensor%20equipment%20health%20diagnosis%20and%20prognosis/</url>
     <content><![CDATA[<p><strong>Author</strong>：Dong, M., &amp; He, D.</p>
@@ -1384,25 +1384,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Robust performance degradation assessment methods for enhanced rolling element bearing prognostics</title>
-    <url>/2003/07/19/59.Robust%20performance%20degradation%20assessment%20methods%20for%20enhanced%20rolling%20element%20bearing%20prognostics/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Qiu, H., Lee, J., Lin, J., &amp; Yu, G.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Bearing failure is one of the foremost causes of breakdowns in rotating machinery and such failure can be catastrophic, resulting in costly downtime. One of the key issues in bearing prognostics is to detect the defect at its incipient stage and alert the operator before it develops into a catastrophic failure. Signal de-noising and extraction of the weak signature are crucial to bearing prognostics since the inherent deficiency of the measuring mechanism often introduces a great amount of noise to the signal. In addition, the signature of a defective bearing is spread across a wide frequency band and hence can easily become masked by noise and low frequency effects. As a result, robust methods are needed to provide more evident information for bearing performance assessment and prognostics. This paper introduces enhanced and robust prognostic methods for rolling element bearing including a wavelet filter based method for weak signature enhancement for fault identification and Self Organizing Map (SOM) based method for performance degradation assessment. The experimental results demonstrate that the bearing defects can be detected at an early stage of development when both optimal wavelet filter and SOM method are used. </p>
-<p><strong>Keywords</strong>：Prognostics；Predictive maintenance；Bearing prognostics</p>
-<p><img src="/image/fig/59.jpg" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S1474034604000114">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Bearing</tag>
-        <tag>Self-Organizing-Map</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Squirrel cage rotor faults detection in induction motor utilizing stator power spectrum approach</title>
     <url>/2002/07/19/6.Squirrel%20cage%20rotor%20faults%20detection%20in%20induction%20motor%20utilizing%20stator%20power%20spectrum%20approach/</url>
     <content><![CDATA[<p><strong>Author</strong>：Drif, M. H., Benouzza, N., Kraloua, B., Bendiabdellah, A., &amp; Dente, J. A.</p>
@@ -1421,22 +1402,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Maintenance Changing Role in Life Cycle Management</title>
-    <url>/2004/07/19/61.Maintenance%20Changing%20Role%20in%20Life%20Cycle%20Management/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Takata, S., Kirnura, F., van Houten, F. J., Westkamper, E., Shpitalni, M., Ceglarek, D., &amp; Lee, J.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>As attention to environmental problems grows, product life cycle management is becoming a crucial issue in realizing a sustainable society. Our objective is to provide the functions necessary for such a society while minimizing material and energy consumption. From this viewpoint, we should redefine the role of maintenance as a prime method for life cycle management. In this paper, we first discuss the changing role of maintenance from the perspective of life cycle management. Then, we present a maintenance framework that shows management cycles of maintenance activities during the product life cycle. According to this framework, we identify technical issues of maintenance and discuss the advances of technologies supporting the change in the role of maintenance.  </p>
-<p><strong>Keywords</strong>：Maintenance; Life Cycle Management</p>
-<p><img src="/image/fig/61.png" alt="jpg"></p>
+    <title>Robust performance degradation assessment methods for enhanced rolling element bearing prognostics</title>
+    <url>/2003/07/19/59.Robust%20performance%20degradation%20assessment%20methods%20for%20enhanced%20rolling%20element%20bearing%20prognostics/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Qiu, H., Lee, J., Lin, J., &amp; Yu, G.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Bearing failure is one of the foremost causes of breakdowns in rotating machinery and such failure can be catastrophic, resulting in costly downtime. One of the key issues in bearing prognostics is to detect the defect at its incipient stage and alert the operator before it develops into a catastrophic failure. Signal de-noising and extraction of the weak signature are crucial to bearing prognostics since the inherent deficiency of the measuring mechanism often introduces a great amount of noise to the signal. In addition, the signature of a defective bearing is spread across a wide frequency band and hence can easily become masked by noise and low frequency effects. As a result, robust methods are needed to provide more evident information for bearing performance assessment and prognostics. This paper introduces enhanced and robust prognostic methods for rolling element bearing including a wavelet filter based method for weak signature enhancement for fault identification and Self Organizing Map (SOM) based method for performance degradation assessment. The experimental results demonstrate that the bearing defects can be detected at an early stage of development when both optimal wavelet filter and SOM method are used. </p>
+<p><strong>Keywords</strong>：Prognostics；Predictive maintenance；Bearing prognostics</p>
+<p><img src="/image/fig/59.jpg" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S000785060760033X">click here to view full article</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S1474034604000114">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>Review</category>
+        <category>Fault_Diagnosis</category>
       </categories>
       <tags>
-        <tag>Hybrid</tag>
-        <tag>Machine-Tool</tag>
+        <tag>Bearing</tag>
+        <tag>Self-Organizing-Map</tag>
       </tags>
   </entry>
   <entry>
@@ -1459,22 +1440,22 @@
       </tags>
   </entry>
   <entry>
-    <title>A two-phase preventive maintenance policy considering imperfect repair and postponed replacement</title>
-    <url>/2019/07/19/63.A%20two-phase%20preventive%20maintenance%20policy%20considering%20imperfect%20repair%20and%20postponed%20replacement/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Yang, L., Ye, Z. S., Lee, C. G., Yang, S. F., &amp; Peng, R.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>This paper investigates a novel two-phase preventive maintenance policy for a single-component system with an objective of maximizing the revenue generated by the performance-based contracting (PBC). The system undergoes a defective state before failure, and produces signal hinting the condition. The maintenance policy consists of two phases: imperfect maintenance phase followed by postponed replacement phase. In the imperfect maintenance phase, inspection is performed to reveal the defective state, leading to a possible repair. Both the inspection and the repair are imperfect. In the postponed replacement phase, preventive replacement is performed during the upcoming scheduled maintenance window, before which no inspection or repair is executed. The expected net revenue under PBC is maximized via the joint optimization of the inspection interval, number of inspection and preventive replacement interval. We apply the model to a case from a steel converter plant, and the results show that our proposed maintenance policy outperforms some existing maintenance policies in terms of the net revenue.  </p>
-<p><strong>Keywords</strong>：Maintenance; delay time; imperfect repair; postponed replacement; performance-based contract.</p>
-<p><img src="/image/fig/63.png" alt="jpg"></p>
+    <title>Maintenance Changing Role in Life Cycle Management</title>
+    <url>/2004/07/19/61.Maintenance%20Changing%20Role%20in%20Life%20Cycle%20Management/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Takata, S., Kirnura, F., van Houten, F. J., Westkamper, E., Shpitalni, M., Ceglarek, D., &amp; Lee, J.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>As attention to environmental problems grows, product life cycle management is becoming a crucial issue in realizing a sustainable society. Our objective is to provide the functions necessary for such a society while minimizing material and energy consumption. From this viewpoint, we should redefine the role of maintenance as a prime method for life cycle management. In this paper, we first discuss the changing role of maintenance from the perspective of life cycle management. Then, we present a maintenance framework that shows management cycles of maintenance activities during the product life cycle. According to this framework, we identify technical issues of maintenance and discuss the advances of technologies supporting the change in the role of maintenance.  </p>
+<p><strong>Keywords</strong>：Maintenance; Life Cycle Management</p>
+<p><img src="/image/fig/61.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718309172">click here to view full article</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S000785060760033X">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>Preventive_Maintenance</category>
+        <category>Review</category>
       </categories>
       <tags>
-        <tag>Workshop</tag>
-        <tag>Model-Based-Method</tag>
+        <tag>Machine-Tool</tag>
+        <tag>Hybrid</tag>
       </tags>
   </entry>
   <entry>
@@ -1516,14 +1497,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Deep reinforcement learning based preventive maintenance policy for serial production lines</title>
-    <url>/2020/07/19/65.Deep%20reinforcement%20learning%20based%20preventive%20maintenance%20policy%20for%20serial%20production%20lines/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Huang, J., Chang, Q., &amp; Arinez, J.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In the manufacturing industry, the preventive maintenance (PM) is a common practice to reduce random machine failures by replacing/repairing the aged machines or parts. The decision on when and where the preventive maintenance needs to be carried out is nontrivial due to the complex and stochastic nature of a serial production line with intermediate buffers. In order to improve the cost efficiency of the serial production lines, a deep reinforcement learning based approach is proposed to obtain PM policy. A novel modeling method for the serial production line is adopted during the learning process. A reward function is proposed based on the system production loss evaluation. The algorithm based on the Double Deep Q-Network is applied to learn the PM policy. Using the simulation study, the learning algorithm is proved effective in delivering PM policy that leads to an increased throughput and reduced cost. Interestingly, the learned policy is found to frequently conduct group maintenance and opportunistic maintenance, although their concepts and rules are not provided during the learning process. This finding further demonstrates that the problem formulation, the proposed algorithm and the reward function setting in this paper are effective.</p>
-<p><strong>Keywords</strong>：Preventive maintenance; Production loss; Deep reinforcement learning; Serial production line; Group maintenance; Opportunistic maintenance</p>
-<p><img src="/image/fig/65.png" alt="jpg"></p>
+    <title>A two-phase preventive maintenance policy considering imperfect repair and postponed replacement</title>
+    <url>/2019/07/19/63.A%20two-phase%20preventive%20maintenance%20policy%20considering%20imperfect%20repair%20and%20postponed%20replacement/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Yang, L., Ye, Z. S., Lee, C. G., Yang, S. F., &amp; Peng, R.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>This paper investigates a novel two-phase preventive maintenance policy for a single-component system with an objective of maximizing the revenue generated by the performance-based contracting (PBC). The system undergoes a defective state before failure, and produces signal hinting the condition. The maintenance policy consists of two phases: imperfect maintenance phase followed by postponed replacement phase. In the imperfect maintenance phase, inspection is performed to reveal the defective state, leading to a possible repair. Both the inspection and the repair are imperfect. In the postponed replacement phase, preventive replacement is performed during the upcoming scheduled maintenance window, before which no inspection or repair is executed. The expected net revenue under PBC is maximized via the joint optimization of the inspection interval, number of inspection and preventive replacement interval. We apply the model to a case from a steel converter plant, and the results show that our proposed maintenance policy outperforms some existing maintenance policies in terms of the net revenue.  </p>
+<p><strong>Keywords</strong>：Maintenance; delay time; imperfect repair; postponed replacement; performance-based contract.</p>
+<p><img src="/image/fig/63.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S095741742030525X">click here to view full article</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221718309172">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1531,7 +1512,7 @@
       </categories>
       <tags>
         <tag>Workshop</tag>
-        <tag>Reinforcement-Learning</tag>
+        <tag>Model-Based-Method</tag>
       </tags>
   </entry>
   <entry>
@@ -1554,6 +1535,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Deep reinforcement learning based preventive maintenance policy for serial production lines</title>
+    <url>/2020/07/19/65.Deep%20reinforcement%20learning%20based%20preventive%20maintenance%20policy%20for%20serial%20production%20lines/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Huang, J., Chang, Q., &amp; Arinez, J.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>In the manufacturing industry, the preventive maintenance (PM) is a common practice to reduce random machine failures by replacing/repairing the aged machines or parts. The decision on when and where the preventive maintenance needs to be carried out is nontrivial due to the complex and stochastic nature of a serial production line with intermediate buffers. In order to improve the cost efficiency of the serial production lines, a deep reinforcement learning based approach is proposed to obtain PM policy. A novel modeling method for the serial production line is adopted during the learning process. A reward function is proposed based on the system production loss evaluation. The algorithm based on the Double Deep Q-Network is applied to learn the PM policy. Using the simulation study, the learning algorithm is proved effective in delivering PM policy that leads to an increased throughput and reduced cost. Interestingly, the learned policy is found to frequently conduct group maintenance and opportunistic maintenance, although their concepts and rules are not provided during the learning process. This finding further demonstrates that the problem formulation, the proposed algorithm and the reward function setting in this paper are effective.</p>
+<p><strong>Keywords</strong>：Preventive maintenance; Production loss; Deep reinforcement learning; Serial production line; Group maintenance; Opportunistic maintenance</p>
+<p><img src="/image/fig/65.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S095741742030525X">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Preventive_Maintenance</category>
+      </categories>
+      <tags>
+        <tag>Workshop</tag>
+        <tag>Reinforcement-Learning</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Preventive maintenance (PM) planning a review</title>
     <url>/2017/07/19/67.Preventive%20maintenance%20(PM)%20planning%20a%20review/</url>
     <content><![CDATA[<p><strong>Author</strong>：Basri, E. I., Razak, I. H. A., Ab-Samat, H., &amp; Kamaruddin, S.</p>
@@ -1569,25 +1569,6 @@
       </categories>
       <tags>
         <tag>Hybrid</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms</title>
-    <url>/2019/07/19/68.A%20reliability-and-cost-based%20fuzzy%20approach%20to%20optimize%20preventive%20maintenance%20scheduling%20for%20offshore%20wind%20farms/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Zhong, S., Pantelous, A. A., Goh, M., &amp; Zhou, J.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Purpose The purpose of this paper is to provide comprehensive information on preventive maintenance (PM) planning and methods used in the industry in order to achieve an effective maintenance system. Design/methodology/approach The literature review is organized in a way that provides the general overview of the researches done in the PM. This paper discusses the literatures that had been reviewed on four main topics, which are the holistic view of maintenance policies, PM planning, PM planning concept and PM planning-based in developing optimal planning in executing PM actions. Findings PM policy is one of the original proactive techniques that has been used since the start of researches on maintenance system. Review of the methods presented in this paper shows that most researches analyse effectiveness using artificial intelligence, simulation, mathematical formulation, matrix formation, critical analysis and multi-criteria method. While in practice, PM activities were either planned based on cost, time or failure. Research trends on planning and methods for PM show that the variation of approaches used over the year from early 1990s until today. Practical implications Research about PM is known to be extensively conducted and majority of companies applied the policy in their production line. However, most analysis and method suggested in published literatures were done based on mathematical computation rather than focussing on solution to real problems in the industry. This normally would lead to the problems in understanding by the practitioner. Therefore, this paper presented researches on PM planning and suggested on the methods that are practical, simple and effective for application in the real industry. Originality/value The originality of this paper comes from its detail analysis of PM planning in term of its research focus and also direction for application. Extensive reviews on the methods adopted in relation to PM planning based on the planning-based such as cost-based, time-based and failure-based were also provided.</p>
-<p><strong>Keywords</strong>：Offshore wind energy; Preventive maintenance scheduling; Fuzzy chance-constrained programming; Fuzzy multi-objective programming; Reliability; Maintenance cost</p>
-<p><img src="/image/fig/68.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0888327019300950">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Preventive_Maintenance</category>
-      </categories>
-      <tags>
-        <tag>Wind-Turbine</tag>
-        <tag>Model-Based-Method</tag>
       </tags>
   </entry>
   <entry>
@@ -1610,22 +1591,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Identification of out of control quality characteristics in a multivariate manufacturing environment</title>
-    <url>/2010/07/19/7.Identification%20of%20out%20of%20control%20quality%20characteristics%20in%20a%20multivariate%20manufacturing%20environment/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Doganaksoy, N., Faltin, F. W., &amp; Tucker, W. T.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>There are many instances in which the quality of a product or constancy of a process is determined by the joint levels of several attributes or properties. During the conduct of such a process or the production of such a product, one wishes to detect as quickly as possible any departure from a satisfactory state, while at the same time identifying which attributes are responsible for the deviation. In most cases of practical interest, however, there exist correlations among the several properties of interest; this makes it advisable to monitor certain aggregate characteristics of the process, rather than observing its various components separately. When the mean vector of the quality attributes is the major concern, this aggregate monitoring function is most commonly implemented via a T 2 chart. The dependencies among attributes, however, complicate the determination of which are responsible when a deviation occurs. This paper presents an approach to help identify aberrant variables when Shewhart type multivariate control charts based on Hotelling’s T 2 are in use. </p>
-<p><strong>Keywords</strong>：Bonferroni inequality；control charting；Hotelling’s t2；principal components</p>
-<p><img src="/image/fig/7.png" alt="jpg"></p>
+    <title>A reliability-and-cost-based fuzzy approach to optimize preventive maintenance scheduling for offshore wind farms</title>
+    <url>/2019/07/19/68.A%20reliability-and-cost-based%20fuzzy%20approach%20to%20optimize%20preventive%20maintenance%20scheduling%20for%20offshore%20wind%20farms/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Zhong, S., Pantelous, A. A., Goh, M., &amp; Zhou, J.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Purpose The purpose of this paper is to provide comprehensive information on preventive maintenance (PM) planning and methods used in the industry in order to achieve an effective maintenance system. Design/methodology/approach The literature review is organized in a way that provides the general overview of the researches done in the PM. This paper discusses the literatures that had been reviewed on four main topics, which are the holistic view of maintenance policies, PM planning, PM planning concept and PM planning-based in developing optimal planning in executing PM actions. Findings PM policy is one of the original proactive techniques that has been used since the start of researches on maintenance system. Review of the methods presented in this paper shows that most researches analyse effectiveness using artificial intelligence, simulation, mathematical formulation, matrix formation, critical analysis and multi-criteria method. While in practice, PM activities were either planned based on cost, time or failure. Research trends on planning and methods for PM show that the variation of approaches used over the year from early 1990s until today. Practical implications Research about PM is known to be extensively conducted and majority of companies applied the policy in their production line. However, most analysis and method suggested in published literatures were done based on mathematical computation rather than focussing on solution to real problems in the industry. This normally would lead to the problems in understanding by the practitioner. Therefore, this paper presented researches on PM planning and suggested on the methods that are practical, simple and effective for application in the real industry. Originality/value The originality of this paper comes from its detail analysis of PM planning in term of its research focus and also direction for application. Extensive reviews on the methods adopted in relation to PM planning based on the planning-based such as cost-based, time-based and failure-based were also provided.</p>
+<p><strong>Keywords</strong>：Offshore wind energy; Preventive maintenance scheduling; Fuzzy chance-constrained programming; Fuzzy multi-objective programming; Reliability; Maintenance cost</p>
+<p><img src="/image/fig/68.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.tandfonline.com/doi/abs/10.1080/03610929108830667">click here to view full article</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0888327019300950">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>Quality_Control</category>
+        <category>Preventive_Maintenance</category>
       </categories>
       <tags>
-        <tag>Mathematical-Statistics</tag>
-        <tag>Product</tag>
+        <tag>Wind-Turbine</tag>
+        <tag>Model-Based-Method</tag>
       </tags>
   </entry>
   <entry>
@@ -1648,22 +1629,22 @@
       </tags>
   </entry>
   <entry>
-    <title>Integrated optimization on train scheduling and preventive maintenance time slots planning</title>
-    <url>/2017/07/19/72.Integrated%20optimization%20on%20train%20scheduling%20and%20preventive%20maintenance%20time%20slots%20planning/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Luan, X., Miao, J., Meng, L., Corman, F., &amp; Lodewijks, G.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>We address the problem of simultaneously scheduling trains and planning preventive maintenance time slots (PMTSs) on a general railway network. Based on network cumulative flow variables, a novel integrated mixed-integer linear programming (MILP) model is proposed to simultaneously optimize train routes, orders and passing times at each station, as well as work-time of preventive maintenance tasks (PMTSs). In order to provide an easy decomposition mechanism, the limited capacity of complex tracks is modelled as side constraints and a PMTS is modelled as a virtual train. A Lagrangian relaxation solution framework is proposed, in which the difficult track capacity constraints are relaxed, to decompose the original complex integrated train scheduling and PMTSs planning problem into a sequence of single train-based sub-problems. For each sub-problem, a standard label correcting algorithm is employed for finding the time-dependent least cost path on a time-space network. The resulting dual solutions can be transformed to feasible solutions through priority rules. Numerical experiments are conducted on a small artificial network and a real-world network adapted from a Chinese railway network, to evaluate the effectiveness and computational efficiency of the integrated optimization model and the proposed Lagrangian relaxation solution framework. The benefits of simultaneously scheduling trains and planning PMTSs are demonstrated, compared with a commonly-used sequential scheduling method.  </p>
-<p><strong>Keywords</strong>：Integrated optimization; Train scheduling; Preventive maintenance time slots (PMTSs) planning; Cumulative flow variables; Lagrangian relaxation</p>
-<p><img src="/image/fig/72.jpg" alt="jpg"></p>
+    <title>Identification of out of control quality characteristics in a multivariate manufacturing environment</title>
+    <url>/2010/07/19/7.Identification%20of%20out%20of%20control%20quality%20characteristics%20in%20a%20multivariate%20manufacturing%20environment/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Doganaksoy, N., Faltin, F. W., &amp; Tucker, W. T.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>There are many instances in which the quality of a product or constancy of a process is determined by the joint levels of several attributes or properties. During the conduct of such a process or the production of such a product, one wishes to detect as quickly as possible any departure from a satisfactory state, while at the same time identifying which attributes are responsible for the deviation. In most cases of practical interest, however, there exist correlations among the several properties of interest; this makes it advisable to monitor certain aggregate characteristics of the process, rather than observing its various components separately. When the mean vector of the quality attributes is the major concern, this aggregate monitoring function is most commonly implemented via a T 2 chart. The dependencies among attributes, however, complicate the determination of which are responsible when a deviation occurs. This paper presents an approach to help identify aberrant variables when Shewhart type multivariate control charts based on Hotelling’s T 2 are in use. </p>
+<p><strong>Keywords</strong>：Bonferroni inequality；control charting；Hotelling’s t2；principal components</p>
+<p><img src="/image/fig/7.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0968090X17301237#aep-article-footnote-id1">click here to view full article</a></p>
+<p><a href="https://www.tandfonline.com/doi/abs/10.1080/03610929108830667">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
-        <category>Preventive_Maintenance</category>
+        <category>Quality_Control</category>
       </categories>
       <tags>
-        <tag>Railway</tag>
-        <tag>Model-Based-Method</tag>
+        <tag>Mathematical-Statistics</tag>
+        <tag>Product</tag>
       </tags>
   </entry>
   <entry>
@@ -1683,6 +1664,25 @@
       <tags>
         <tag>Mathematical-Statistics</tag>
         <tag>Wastewater-Treatment-Plants</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Integrated optimization on train scheduling and preventive maintenance time slots planning</title>
+    <url>/2017/07/19/72.Integrated%20optimization%20on%20train%20scheduling%20and%20preventive%20maintenance%20time%20slots%20planning/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Luan, X., Miao, J., Meng, L., Corman, F., &amp; Lodewijks, G.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>We address the problem of simultaneously scheduling trains and planning preventive maintenance time slots (PMTSs) on a general railway network. Based on network cumulative flow variables, a novel integrated mixed-integer linear programming (MILP) model is proposed to simultaneously optimize train routes, orders and passing times at each station, as well as work-time of preventive maintenance tasks (PMTSs). In order to provide an easy decomposition mechanism, the limited capacity of complex tracks is modelled as side constraints and a PMTS is modelled as a virtual train. A Lagrangian relaxation solution framework is proposed, in which the difficult track capacity constraints are relaxed, to decompose the original complex integrated train scheduling and PMTSs planning problem into a sequence of single train-based sub-problems. For each sub-problem, a standard label correcting algorithm is employed for finding the time-dependent least cost path on a time-space network. The resulting dual solutions can be transformed to feasible solutions through priority rules. Numerical experiments are conducted on a small artificial network and a real-world network adapted from a Chinese railway network, to evaluate the effectiveness and computational efficiency of the integrated optimization model and the proposed Lagrangian relaxation solution framework. The benefits of simultaneously scheduling trains and planning PMTSs are demonstrated, compared with a commonly-used sequential scheduling method.  </p>
+<p><strong>Keywords</strong>：Integrated optimization; Train scheduling; Preventive maintenance time slots (PMTSs) planning; Cumulative flow variables; Lagrangian relaxation</p>
+<p><img src="/image/fig/72.jpg" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0968090X17301237#aep-article-footnote-id1">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Preventive_Maintenance</category>
+      </categories>
+      <tags>
+        <tag>Railway</tag>
+        <tag>Model-Based-Method</tag>
       </tags>
   </entry>
   <entry>
@@ -1724,6 +1724,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes</title>
+    <url>/2020/07/19/76.Optimal%20dynamic%20imperfect%20preventive%20maintenance%20of%20wind%20turbines%20based%20on%20general%20renewal%20processes/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Wang, J., Zhang, X., Zeng, J., &amp; Zhang, Y.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>With the rapid growth in wind turbine technology worldwide, the high operational and maintenance costs of wind turbines have posed a major challenge to wind power operating companies. Considering the high replacement cost, imperfect maintenance measures are employed widely once downtime failures occur. However, as the metric to describe the effect of imperfect maintenance is a non-intuitive variable, the evaluation results obtained from existing research do not conform with actual wind turbine situations. To address this issue, the virtual age factor and failure intensity update factor are expressed by intuitive variables to illustrate the imperfect maintenance effect. Additionally, we propose a failure rate function update model considering the above factors. To minimise maintenance costs while ensuring the availability of the wind turbine, we investigate a periodic dynamic imperfect preventive maintenance decision model based on the proposed failure rate function update model. We also provide a brief illustration of the accuracy and feasibility of the proposed model through optimal solution and sensitivity analyses. The results obtained from the case analysis and strategies comparison, based on actual wind turbine maintenance data, demonstrate the economic advantages of our approach. </p>
+<p><strong>Keywords</strong>：wind turbines; imperfect preventive maintenance; system availability; failure rate; virtual age</p>
+<p><img src="/image/fig/76.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2019.1685706">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Preventive_Maintenance</category>
+      </categories>
+      <tags>
+        <tag>Wind-Turbine</tag>
+        <tag>Model-Based-Method</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Integrated control policy of production and preventive maintenance for a deteriorating manufacturing system</title>
     <url>/2018/07/19/75.Integrated%20control%20policy%20of%20production%20and%20preventive%20maintenance%20for%20a%20deteriorating%20manufacturing%20system/</url>
     <content><![CDATA[<p><strong>Author</strong>：Kang, K., &amp; Subramaniam, V.</p>
@@ -1762,14 +1781,14 @@
       </tags>
   </entry>
   <entry>
-    <title>Optimal dynamic imperfect preventive maintenance of wind turbines based on general renewal processes</title>
-    <url>/2020/07/19/76.Optimal%20dynamic%20imperfect%20preventive%20maintenance%20of%20wind%20turbines%20based%20on%20general%20renewal%20processes/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Wang, J., Zhang, X., Zeng, J., &amp; Zhang, Y.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>With the rapid growth in wind turbine technology worldwide, the high operational and maintenance costs of wind turbines have posed a major challenge to wind power operating companies. Considering the high replacement cost, imperfect maintenance measures are employed widely once downtime failures occur. However, as the metric to describe the effect of imperfect maintenance is a non-intuitive variable, the evaluation results obtained from existing research do not conform with actual wind turbine situations. To address this issue, the virtual age factor and failure intensity update factor are expressed by intuitive variables to illustrate the imperfect maintenance effect. Additionally, we propose a failure rate function update model considering the above factors. To minimise maintenance costs while ensuring the availability of the wind turbine, we investigate a periodic dynamic imperfect preventive maintenance decision model based on the proposed failure rate function update model. We also provide a brief illustration of the accuracy and feasibility of the proposed model through optimal solution and sensitivity analyses. The results obtained from the case analysis and strategies comparison, based on actual wind turbine maintenance data, demonstrate the economic advantages of our approach. </p>
-<p><strong>Keywords</strong>：wind turbines; imperfect preventive maintenance; system availability; failure rate; virtual age</p>
-<p><img src="/image/fig/76.png" alt="jpg"></p>
+    <title>Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms</title>
+    <url>/2018/07/19/78.Constrained%20non-linear%20multi-objective%20optimisation%20of%20preventive%20maintenance%20scheduling%20for%20offshore%20wind%20farms/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Zhong, S., Pantelous, A. A., Beer, M., &amp; Zhou, J.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Offshore wind farm is an emerging source of renewable energy, which has been shown to have tremendous potential in recent years. In this blooming area, a key challenge is that the preventive maintenance of offshore turbines should be scheduled reasonably to satisfy the power supply without failure. In this direction, two significant goals should be considered simultaneously as a trade-off. One is to maximise the system reliability and the other is to minimise the maintenance related cost. Thus, a non-linear multi-objective programming model is proposed including two newly defined objectives with thirteen families of constraints suitable for the preventive maintenance of offshore wind farms. In order to solve our model effectively, the nondominated sorting genetic algorithm II, especially for the multi-objective optimisation is utilised and Pareto-optimal solutions of schedules can be obtained to offer adequate support to decision-makers. Finally, an example is given to illustrate the performances of the devised model and algorithm, and explore the relationships of the two targets with the help of a contrast model. </p>
+<p><strong>Keywords</strong>：Reliability; Maintenance; Scheduling; Cost parameters; Offshore wind farms; Multi-objective Programming</p>
+<p><img src="/image/fig/78.png" alt="jpg"></p>
 <h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2019.1685706">click here to view full article</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S088832701730568X">click here to view full article</a></p>
 </blockquote>
 ]]></content>
       <categories>
@@ -1777,7 +1796,7 @@
       </categories>
       <tags>
         <tag>Wind-Turbine</tag>
-        <tag>Model-Based-Method</tag>
+        <tag>Genetic-Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -1798,25 +1817,6 @@
         <tag>Signal-Processing</tag>
         <tag>Railway</tag>
         <tag>Clustering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Constrained non-linear multi-objective optimisation of preventive maintenance scheduling for offshore wind farms</title>
-    <url>/2018/07/19/78.Constrained%20non-linear%20multi-objective%20optimisation%20of%20preventive%20maintenance%20scheduling%20for%20offshore%20wind%20farms/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Zhong, S., Pantelous, A. A., Beer, M., &amp; Zhou, J.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Offshore wind farm is an emerging source of renewable energy, which has been shown to have tremendous potential in recent years. In this blooming area, a key challenge is that the preventive maintenance of offshore turbines should be scheduled reasonably to satisfy the power supply without failure. In this direction, two significant goals should be considered simultaneously as a trade-off. One is to maximise the system reliability and the other is to minimise the maintenance related cost. Thus, a non-linear multi-objective programming model is proposed including two newly defined objectives with thirteen families of constraints suitable for the preventive maintenance of offshore wind farms. In order to solve our model effectively, the nondominated sorting genetic algorithm II, especially for the multi-objective optimisation is utilised and Pareto-optimal solutions of schedules can be obtained to offer adequate support to decision-makers. Finally, an example is given to illustrate the performances of the devised model and algorithm, and explore the relationships of the two targets with the help of a contrast model. </p>
-<p><strong>Keywords</strong>：Reliability; Maintenance; Scheduling; Cost parameters; Offshore wind farms; Multi-objective Programming</p>
-<p><img src="/image/fig/78.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S088832701730568X">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Preventive_Maintenance</category>
-      </categories>
-      <tags>
-        <tag>Wind-Turbine</tag>
-        <tag>Genetic-Algorithm</tag>
       </tags>
   </entry>
   <entry>
@@ -1896,25 +1896,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm</title>
-    <url>/2020/07/19/83.Optimization%20of%20preventive%20maintenance%20for%20series%20manufacturing%20system%20by%20differential%20evolution%20algorithm/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Wang, X., Guo, S., Shen, J., &amp; Liu, Y.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>The costs of preventive maintenance have been extensively studied by scholars across all preventive optimization model disciplines. However, one phenomenon fails to be fully studied: breakdown and breakdown maintenance costs. We set out to fill this gap in this study. This study considered the cost of equipment preventive maintenance, and the breakdown maintenance cost caused by an accidental breakdown. In order to more accurately establish the reliability model of equipment breakdown, the three-parameter Weibull distribution was applied to set up the reliability model of equipment and the differential evolution algorithm was adopted to optimize the parameters. On this basis, preventive maintenance was regarded as imperfect maintenance in the study of preventive maintenance strategies for single equipment. In consideration of the combined influence of preventive maintenance and breakdown maintenance, a maintenance strategy in which preventive maintenance times N served as the decision variable was obtained to build a mathematical model on benefit expectation of single equipment in unit time. Based on the research of single equipment, a further study was performed on the multi-equipment series system. Moreover, two strategies were given, both of which use preventive maintenance times N as the decision variable. The first strategy is to take the average cost rate of the system under long-term operation as the optimization objective, while the second strategy is to apply single component maintenance strategy in series system. In the numerical example study, a series manufacturing system composed of two devices was chosen as the research object. Interestingly, we discussed the effect of initial conditions of two-parameter DE on output results. After acquiring the optimal initialization parameters, the failure rate function was achieved by the DE to estimate the parameters of three-parameter Weibull distribution. Meanwhile, the maintenance times N was optimized according to the two strategies respectively. The best result were selected from the results of both strategies based on availability. Thus, the validity and practicability of the proposed research methods are verified. </p>
-<p><strong>Keywords</strong>：Preventive maintenance strategy; Series manufacturing system; Differential evolution; Reliability; Imperfect maintenance</p>
-<p><img src="/image/fig/83.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://link.springer.com/content/pdf/10.1007/s10845-019-01475-y.pdf">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Preventive_Maintenance</category>
-      </categories>
-      <tags>
-        <tag>Machine-Tool</tag>
-        <tag>Model-Based-Method</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Development of a Preventive Maintenance Strategy for an Automatic Production Line Based on Group Maintenance Method</title>
     <url>/2018/07/19/84.Development%20of%20a%20Preventive%20Maintenance%20Strategy%20for%20an%20Automatic%20Production%20Line%20Based%20on%20Group%20Maintenance%20Method/</url>
     <content><![CDATA[<p><strong>Author</strong>：Li, G., Li, Y., Zhang, X., Hou, C., He, J., Xu, B., &amp; Chen, J.</p>
@@ -1930,6 +1911,25 @@
       </categories>
       <tags>
         <tag>Workshop</tag>
+        <tag>Model-Based-Method</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Optimization of preventive maintenance for series manufacturing system by differential evolution algorithm</title>
+    <url>/2020/07/19/83.Optimization%20of%20preventive%20maintenance%20for%20series%20manufacturing%20system%20by%20differential%20evolution%20algorithm/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Wang, X., Guo, S., Shen, J., &amp; Liu, Y.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>The costs of preventive maintenance have been extensively studied by scholars across all preventive optimization model disciplines. However, one phenomenon fails to be fully studied: breakdown and breakdown maintenance costs. We set out to fill this gap in this study. This study considered the cost of equipment preventive maintenance, and the breakdown maintenance cost caused by an accidental breakdown. In order to more accurately establish the reliability model of equipment breakdown, the three-parameter Weibull distribution was applied to set up the reliability model of equipment and the differential evolution algorithm was adopted to optimize the parameters. On this basis, preventive maintenance was regarded as imperfect maintenance in the study of preventive maintenance strategies for single equipment. In consideration of the combined influence of preventive maintenance and breakdown maintenance, a maintenance strategy in which preventive maintenance times N served as the decision variable was obtained to build a mathematical model on benefit expectation of single equipment in unit time. Based on the research of single equipment, a further study was performed on the multi-equipment series system. Moreover, two strategies were given, both of which use preventive maintenance times N as the decision variable. The first strategy is to take the average cost rate of the system under long-term operation as the optimization objective, while the second strategy is to apply single component maintenance strategy in series system. In the numerical example study, a series manufacturing system composed of two devices was chosen as the research object. Interestingly, we discussed the effect of initial conditions of two-parameter DE on output results. After acquiring the optimal initialization parameters, the failure rate function was achieved by the DE to estimate the parameters of three-parameter Weibull distribution. Meanwhile, the maintenance times N was optimized according to the two strategies respectively. The best result were selected from the results of both strategies based on availability. Thus, the validity and practicability of the proposed research methods are verified. </p>
+<p><strong>Keywords</strong>：Preventive maintenance strategy; Series manufacturing system; Differential evolution; Reliability; Imperfect maintenance</p>
+<p><img src="/image/fig/83.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://link.springer.com/content/pdf/10.1007/s10845-019-01475-y.pdf">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Preventive_Maintenance</category>
+      </categories>
+      <tags>
+        <tag>Machine-Tool</tag>
         <tag>Model-Based-Method</tag>
       </tags>
   </entry>
@@ -1953,6 +1953,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Applications of machine learning to machine fault diagnosis A review and roadmap</title>
+    <url>/2020/07/19/86.Applications%20of%20machine%20learning%20to%20machine%20fault%20diagnosis%20A%20review%20and%20roadmap/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Lei, Y., Yang, B., Jiang, X., Jia, F., Li, N., &amp; Nandi, A. K.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Intelligent fault diagnosis (IFD) refers to applications of machine learning theories to machine fault diagnosis. This is a promising way to release the contribution from human labor and automatically recognize the health states of machines, thus it has attracted much attention in the last two or three decades. Although IFD has achieved a considerable number of successes, a review still leaves a blank space to systematically cover the development of IFD from the cradle to the bloom, and rarely provides potential guidelines for the future development. To bridge the gap, this article presents a review and roadmap to systematically cover the development of IFD following the progress of machine learning theories and offer a future perspective. In the past, traditional machine learning theories began to weak the contribution of human labor and brought the era of artificial intelligence to machine fault diagnosis. Over the recent years, the advent of deep learning theories has reformed IFD in further releasing the artificial assistance since the 2010s, which encourages to construct an end-to-end diagnosis procedure. It means to directly bridge the relationship between the increasingly-grown monitoring data and the health states of machines. In the future, transfer learning theories attempt to use the diagnosis knowledge from one or multiple diagnosis tasks to other related ones, which prospectively overcomes the obstacles in applications of IFD to engineering scenarios. Finally, the roadmap of IFD is pictured to show potential research trends when combined with the challenges in this field.</p>
+<p><strong>Keywords</strong>：Machines; Intelligent fault diagnosis; Machine learning; Deep learning; Transfer learning; Review and roadmap</p>
+<p><img src="/image/fig/86.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0888327019308088">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Review</category>
+      </categories>
+      <tags>
+        <tag>Machine-Tool</tag>
+        <tag>Hybrid</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>A New Convolutional Neural Network-Based Data-Driven Fault Diagnosis Method</title>
     <url>/2017/07/19/87.A%20New%20Convolutional%20Neural%20Network-Based%20Data-Driven%20Fault%20Diagnosis%20Method/</url>
     <content><![CDATA[<p><strong>Author</strong>：Wen, L., Li, X., Gao, L., &amp; Zhang, Y.</p>
@@ -1969,25 +1988,6 @@
       <tags>
         <tag>Convolutional-Neural-Network</tag>
         <tag>Bearing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Applications of machine learning to machine fault diagnosis A review and roadmap</title>
-    <url>/2020/07/19/86.Applications%20of%20machine%20learning%20to%20machine%20fault%20diagnosis%20A%20review%20and%20roadmap/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Lei, Y., Yang, B., Jiang, X., Jia, F., Li, N., &amp; Nandi, A. K.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>Intelligent fault diagnosis (IFD) refers to applications of machine learning theories to machine fault diagnosis. This is a promising way to release the contribution from human labor and automatically recognize the health states of machines, thus it has attracted much attention in the last two or three decades. Although IFD has achieved a considerable number of successes, a review still leaves a blank space to systematically cover the development of IFD from the cradle to the bloom, and rarely provides potential guidelines for the future development. To bridge the gap, this article presents a review and roadmap to systematically cover the development of IFD following the progress of machine learning theories and offer a future perspective. In the past, traditional machine learning theories began to weak the contribution of human labor and brought the era of artificial intelligence to machine fault diagnosis. Over the recent years, the advent of deep learning theories has reformed IFD in further releasing the artificial assistance since the 2010s, which encourages to construct an end-to-end diagnosis procedure. It means to directly bridge the relationship between the increasingly-grown monitoring data and the health states of machines. In the future, transfer learning theories attempt to use the diagnosis knowledge from one or multiple diagnosis tasks to other related ones, which prospectively overcomes the obstacles in applications of IFD to engineering scenarios. Finally, the roadmap of IFD is pictured to show potential research trends when combined with the challenges in this field.</p>
-<p><strong>Keywords</strong>：Machines; Intelligent fault diagnosis; Machine learning; Deep learning; Transfer learning; Review and roadmap</p>
-<p><img src="/image/fig/86.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0888327019308088">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Review</category>
-      </categories>
-      <tags>
-        <tag>Hybrid</tag>
-        <tag>Machine-Tool</tag>
       </tags>
   </entry>
   <entry>
@@ -2106,25 +2106,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Highly Accurate Machine Fault Diagnosis Using Deep Transfer Learning</title>
-    <url>/2018/07/19/93.Highly%20Accurate%20Machine%20Fault%20Diagnosis%20Using%20Deep%20Transfer%20Learning/</url>
-    <content><![CDATA[<p><strong>Author</strong>：Shao, S., McAleer, S., Yan, R., &amp; Baldi, P.</p>
-<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>We develop a novel deep learning framework to achieve highly accurate machine fault diagnosis using transfer learning to enable and accelerate the training of deep neural network. Compared with existing methods, the proposed method is faster to train and more accurate. First, original sensor data are converted to images by conducting a Wavelet transformation to obtain time-frequency distributions. Next, a pretrained network is used to extract lower level features. The labeled time-frequency images are then used to fine-tune the higher levels of the neural network architecture. This paper creates a machine fault diagnosis pipeline and experiments are carried out to verify the effectiveness and generalization of the pipeline on three main mechanical datasets including induction motors, gearboxes, and bearings with sizes of 6000, 9000, and 5000 time series samples, respectively. We achieve state-of-the-art results on each dataset, with most datasets showing test accuracy near 100%, and in the gearbox dataset, we achieve significant improvement from 94.8% to 99.64%. We created a repository including these datasets located at mlmechanics.ics.uci.edu.</p>
-<p><strong>Keywords</strong>：fault diagnosis; deep learning; transfer learning; convolutional neural network; pre-trained model; machine health monitoring</p>
-<p><img src="/image/fig/93.png" alt="jpg"></p>
-<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
-<p><a href="https://ieeexplore.ieee.org/document/8432110">click here to view full article</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fault_Diagnosis</category>
-      </categories>
-      <tags>
-        <tag>Hybrid</tag>
-        <tag>Transfer-Learning</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>A survey on Deep Learning based bearing fault diagnosis</title>
     <url>/2019/07/19/94.A%20survey%20on%20Deep%20Learning%20based%20bearing%20fault%20diagnosis/</url>
     <content><![CDATA[<p><strong>Author</strong>：Hoang, D. T., &amp; Kang, H. J.</p>
@@ -2141,6 +2122,25 @@
       <tags>
         <tag>Hybrid</tag>
         <tag>Bearing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Highly Accurate Machine Fault Diagnosis Using Deep Transfer Learning</title>
+    <url>/2018/07/19/93.Highly%20Accurate%20Machine%20Fault%20Diagnosis%20Using%20Deep%20Transfer%20Learning/</url>
+    <content><![CDATA[<p><strong>Author</strong>：Shao, S., McAleer, S., Yan, R., &amp; Baldi, P.</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>We develop a novel deep learning framework to achieve highly accurate machine fault diagnosis using transfer learning to enable and accelerate the training of deep neural network. Compared with existing methods, the proposed method is faster to train and more accurate. First, original sensor data are converted to images by conducting a Wavelet transformation to obtain time-frequency distributions. Next, a pretrained network is used to extract lower level features. The labeled time-frequency images are then used to fine-tune the higher levels of the neural network architecture. This paper creates a machine fault diagnosis pipeline and experiments are carried out to verify the effectiveness and generalization of the pipeline on three main mechanical datasets including induction motors, gearboxes, and bearings with sizes of 6000, 9000, and 5000 time series samples, respectively. We achieve state-of-the-art results on each dataset, with most datasets showing test accuracy near 100%, and in the gearbox dataset, we achieve significant improvement from 94.8% to 99.64%. We created a repository including these datasets located at mlmechanics.ics.uci.edu.</p>
+<p><strong>Keywords</strong>：fault diagnosis; deep learning; transfer learning; convolutional neural network; pre-trained model; machine health monitoring</p>
+<p><img src="/image/fig/93.png" alt="jpg"></p>
+<h2 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h2><blockquote>
+<p><a href="https://ieeexplore.ieee.org/document/8432110">click here to view full article</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fault_Diagnosis</category>
+      </categories>
+      <tags>
+        <tag>Hybrid</tag>
+        <tag>Transfer-Learning</tag>
       </tags>
   </entry>
   <entry>
